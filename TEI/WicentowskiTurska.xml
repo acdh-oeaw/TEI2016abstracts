@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bringing TEI PM to Foggy Bottom</title>
+            <author>
+               <persName>
+                  <forename>Joseph C.</forename>
+                  <surname>Wicentowski</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/307490314">
+                  <forename>Magdalena</forename>
+                  <surname>Turska</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Bringing TEI PM to Foggy Bottom</title>
+                  <author>
+                     <persName>
+                        <forename>Joseph C.</forename>
+                        <surname>Wicentowski</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/307490314">
+                        <forename>Magdalena</forename>
+                        <surname>Turska</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">155-156</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-27" type="finalUpload"><desc>Submitted for publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>TEI PM</term><term>TEI Processing Model</term><term>documentary editions</term><term>XQuery</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-12-19" who="#vany">TEIHeader edited, encoding of text and bibliographic information, extension of bibliographic information.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>In May 2016, the U.S. State Department’s Office of the Historian relaunched its public
+            website, <ref target="https://history.state.gov/">history.state.gov</ref>, and the new
+            TEI Processing Model (TEI PM) played a key role in the site’s plan for scalability and
+            sustainability. By replacing custom-written code with TEI PM, the project shed years of
+            legacy, custom-written code – laden with duplication and conditional branches for
+            different publications and output formats – and replaced it with a light and lean ODD
+            file containing a single set of TEI Processing Model instructions that form the basis of
+            all transformations for the site’s TEI-based publications: HTML, EPUB, and PDF.</p>
+         <p>This poster will illustrate key aspects of the architecture of the new site: It uses the
+            TEI PM Toolbox, an implementation of TEI PM that generates XQuery 3.1-based stylesheets
+            for multiple output formats from standard TEI PM ODD files. The poster will also
+            illustrate how TEI PM helped the Office of the Historian achieve its goals for
+            scalability and sustainability: improved performance under load, less custom code, and
+            better separation of concerns among editors / designers / programmers by reducing
+            reliance on programmers for stylesheet maintenance and empowering editors to define and
+            improve how their TEI is processed. By documenting the concrete benefits of TEI PM
+            (using measurable benchmarks where possible, such as lines of code), the poster’s
+            authors hope to inform other projects that might have similar goals about this
+            significant new facility of the TEI.</p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct>
+               <analytic>
+                  <author><persName><forename>Joseph</forename><surname>Wincentowski</surname></persName></author>
+                  <title>history.state.gov: A case study of Digital Humanities in Government</title>
+               </analytic>
+               <monogr>
+                  <title>Journal of the Chicago Colloquium on Digital Humanities and Computer
+                     Science</title>
+                  <imprint>
+                     <biblScope unit="vol">1/3</biblScope>
+                     <date>2011</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://letterpress.uchicago.edu/index.php/jdhcs/article/view/80">https://letterpress.uchicago.edu/index.php/jdhcs/article/view/80</ref>
+            </biblStruct>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Upconversion and Migration: Generating a TEI-EpiDoc Corpus of Sicilian
+               Inscriptions</title>
+            <author>
+               <persName>
+                  <forename>James</forename>
+                  <surname>Cummings</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/205238621">
+                  <forename>Jonathan</forename>
+                  <surname>Prag</surname>
+               </persName>
+               <persName>
+                  <forename>James</forename>
+                  <surname>Chartrand</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Upconversion and Migration: Generating a TEI-EpiDoc Corpus of Sicilian
+                     Inscriptions</title>
+                  <author>
+                     <persName>
+                        <forename>James</forename>
+                        <surname>Cummings</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/205238621">
+                        <forename>Jonathan</forename>
+                        <surname>Prag</surname>
+                     </persName>
+                     <persName>
+                        <forename>James</forename>
+                        <surname>Chartrand</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">31-33</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-14" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-27" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>TEI</term><term>EpiDoc</term><term>Conversion</term><term>Legacy Data Migration</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This paper introduces the TEI P5 / EpiDoc corpus of inscriptions on stone for ancient
+            Sicily called I.Sicily. The corpus aims to include all texts inscribed on stone, in any
+            language, between approximately the seventh century BC and the seventh century AD in
+            Sicily. The corpus currently contains records for over 2,500 texts, and when complete is
+            likely to contain c. 4,000. The corpus is built upon a conversion from a legacy dataset
+            maintained in MS Access and Excel into EpiDoc TEI XML. The XML records are held in an
+            eXist database for xQuery access, and generate other outputs such as a fulltext search
+            using SOLR / Lucene. The corpus and related information (museum list, bibliography) are
+            published as Linked Data, and are manipulated through a RESTful API. The records are
+            queried and viewed through a web interface built with AngularJS and jQuery JavaScript
+            components. Mapping is provided in the browser by the Google Maps API, and ZPR (Zoom,
+            Pan, Rotate) imageviewing is provided by the IIIP image server.</p>
+         <p>This paper will report on the main conversion of MS Access and MS Excel files into
+            TEI-EpiDoc XML. This conversion uses a combination of existing TEI stylesheets, and
+            customized transformations to generate thousands of individual TEI-EpiDoc files. These
+            incorporate a variety of references to additional references to standardized
+            vocabularies taken from MS Excel files listing canonical entries. This means that
+            individual inscriptions link through to information about places using Pleiades, lists
+            of museums, and epigraphic types, materials, and supports using the URIs for EAGLE
+            vocabularies. This paper not only reports on the conversion, providing helpful advice on
+            how to undertake such conversions, but also on the project itself.</p>
+      </body>
+   </text>
+</TEI>

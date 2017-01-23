@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Modeling a Body of Literature in TEI: Bibliotheca Hagiographica Syriaca
+               Electronica</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/59147905242279092527">
+                  <forename>Nathan P.</forename>
+                  <surname>Gibson</surname>
+               </persName>
+               <persName>
+                  <forename>David A.</forename>
+                  <surname>Michelson</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Modeling a Body of Literature in TEI: Bibliotheca Hagiographica Syriaca
+                     Electronica</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/59147905242279092527">
+                        <forename>Nathan P.</forename>
+                        <surname>Gibson</surname>
+                     </persName>
+                     <persName>
+                        <forename>David A.</forename>
+                        <surname>Michelson</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">129-130</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-11" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-20" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>text corpora</term><term>FRBR (Functional Requirements for Bibliographic Records)</term><term>tei:bibl</term><term>tei:relation</term><term>Syriac literature</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-23" who="#vany">TEIHeader edited, encoding of text and
+               footnotes.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The Syriaca.org project publishes born-digital reference works in TEI. <q>Bibliotheca
+            Hagiographica Syriaca Electronica</q><note type="footnote"><ref target="http://syriaca.org/bhse">http://syriaca.org/bhse</ref></note> is a set of metadata records describing a particular
+            genre of Middle Eastern literature: saints’ lives written in the Syriac language. This
+            poster describes</p>
+         <list type="ordered">
+            <item>the process of transforming a legacy (tabular) dataset into TEI and</item>
+            <item>the decisions made in creating a schema for encoding and modeling metadata about a
+               body of literature. Syriaca.org is now revising this TEI schema for an expanded
+               project which will describe all of Syriac literature, a corpus which has had little
+               previous scholarly classification or description.</item>
+         </list>
+         <p>Syriaca.org considered a number of methodological questions, which arose from using TEI
+            to model <q>works</q> (in the sense defined by FRBR<note type="footnote"><ref target="http://archive.ifla.org/VII/s13/frbr/frbr_current3.htm#3.2">http://archive.ifla.org/VII/s13/frbr/frbr_current3.htm#3.2</ref></note>). While TEI is frequently used to
+            represent the content of specific manuscripts (or other textbearing objects) and create
+            editions of works, we found that the use of TEI for born-digital metadata records was
+            less common. We found a number of advantages in using TEI over other metadata or
+            bibliographic formats (e.g. MARC, Dublin Core). In addition, we made encoding decisions
+            about how to apply the TEI guidelines to the following questions:</p>
+         <list type="ordered">
+            <item>How can TEI model relationships among works, especially different recensions of
+               the same work or whole-to-part relationships?</item>
+            <item>How can TEI express the relationships of works to their manuscript witnesses,
+               editions, and translations?</item>
+            <item>How can TEI express the relationship of works to persons with alleged authorial or
+               editorial responsibility for it, whether genuine, pseudonymous, anonymous, or
+               attributed?</item>
+         </list>
+         <p>This poster presents our preliminary schema for modeling a body of literature in TEI,
+            for which the authors actively seek feedback, suggestions, and criticism. We are
+            particularly interested in learning from similar projects which have used TEI to map or
+            model metadata about large and heterogeneous literary canons.</p>
+      </body>
+   </text>
+</TEI>

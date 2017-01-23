@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Digital Editions Catalogue App: A web application to browse, curate and
+               analyze digital editions</title>
+            <author>
+               <persName>
+                  <forename>Greta</forename>
+                  <surname>Franzini</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/251032539">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>The Digital Editions Catalogue App: A web application to browse, curate and
+                     analyze digital editions</title>
+                  <author>
+                     <persName>
+                        <forename>Greta</forename>
+                        <surname>Franzini</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/251032539">
+                        <forename>Peter</forename>
+                        <surname>Andorfer</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">127-128</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-10" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>digital editing</term><term>web application</term><term>catalogue</term><term>best practice</term><term>community</term><term>survey</term><term>crowdsourcing</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-23" who="#vany">TEIHeader edited, encoding of text and
+               footnotes.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Since 2012, Greta Franzini’s <q>Catalogue of Digital Editions</q> has been
+            gathering digital editions in an attempt to survey and identify best practice in the
+            field of digital scholarly editing.<note type="footnote"><biblStruct>
+                  <analytic>
+                     <author><persName><forename>Greta</forename><surname>Franzini</surname></persName></author>
+                     <author><persName><forename>S.</forename><surname>Mahony</surname></persName></author>
+                     <author><persName><forename>Melissa</forename><surname>Terras</surname></persName></author>
+                     <title>‘A Catalogue of Digital Editions’</title>
+                  </analytic>
+                  <monogr>
+                     <editor><persName><forename>Elena</forename><surname>Pierazzo</surname></persName></editor>
+                     <editor><persName><forename>Matthew
+                           James</forename><surname>Driscoll</surname></persName></editor>
+                     <title>Digital Scholarly Editing: Theories and Practices</title>
+                     <imprint>
+                        <publisher>Open Book Publishers</publisher>
+                        <date>(forthcoming)</date>
+                     </imprint>
+                  </monogr>
+               <ref target="http://www.openbookpublishers.com/product/483/digital-scholarly-editing-theories-and-practices">http://www.openbookpublishers.com/product/483/digital-scholarly-editing-theories-and-practices</ref>
+               </biblStruct></note> Other cataloguing initiatives did not, and do not, provide the
+            granular analysis of features necessary to understand the rationale and methodology
+            behind the creation of an edition.<note type="footnote">See <ref target="https://github.com/gfranzini/digEds_cat/wiki">https://github.com/gfranzini/digEds_cat/wiki</ref>.</note> The Catalogue is
+            useful as it provides an accessible record of standards (including TEI) and building
+            tools used, and thus an insight into past and present projects. Originally published as
+            an open Google Sheet, in 2015 the Catalogue moved to GitHub as a comma-separated-value
+            file in order to take advantage of its stable versioning system. This format lends
+            itself well to data download and contribution but not to efficient browsing. In 2016, a
+            web application was developed to deliver the .csv Catalogue data to users in an
+            interactive and user-friendly manner.<note type="footnote">See <ref target="https://github.com/acdh-oeaw/dig_ed_cat">https://github.com/acdh-oeaw/dig_ed_cat</ref>.</note> This Django-based
+            application allows users to browse, search, filter and order the Catalogue around their
+            research interests, but also to curate existing data and create new entries through a
+            custom made web front-end. The application also provides statistics and visualizations
+            derived from the data (e.g. map visualizations), as well as the possibility to download
+            and query it via an API. With the Digital Editions Catalogue Web Application, the
+            authors wish to establish a solid and usable platform to collect homogeneous and
+            structured information about digital scholarly editing. The 2016 TEI Conference would
+            provide the perfect setting for an official launch of this collaboration.</p>
+      </body>
+   </text>
+</TEI>

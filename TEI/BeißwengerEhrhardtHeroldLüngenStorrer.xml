@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Converting and Representing Social Media Corpora into TEI: Schema and best practices from CLARIN-D</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/265475928">
+                  <forename>Michael</forename>
+                  <surname>Beißwenger</surname>
+               </persName>
+               <persName>
+                  <forename>Eric</forename>
+                  <surname>Ehrhardt</surname>
+               </persName>
+               <persName>
+                  <forename>Axel</forename>
+                  <surname>Herold</surname>
+               </persName>
+               <persName ref=" http://viaf.org/viaf/310691902">
+                  <forename>Harald</forename>
+                  <surname>Lüngen</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/29663924">
+                  <forename>Angelika</forename>
+                  <surname>Storrer</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Converting and Representing Social Media Corpora into TEI: Schema and best practices from CLARIN-D</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/265475928">
+                        <forename>Michael</forename>
+                        <surname>Beißwenger</surname>
+                     </persName>
+                     <persName>
+                        <forename>Eric</forename>
+                        <surname>Ehrhardt</surname>
+                     </persName>
+                     <persName>
+                        <forename>Axel</forename>
+                        <surname>Herold</surname>
+                     </persName>
+                     <persName ref=" http://viaf.org/viaf/310691902">
+                        <forename>Harald</forename>
+                        <surname>Lüngen</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/29663924">
+                        <forename>Angelika</forename>
+                        <surname>Storrer</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title><idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">39-41</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-12" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-19" type="finalUpload"><desc>Submitted for publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>customization</term><term>corpora</term><term>social media</term><term>computer-mediated communication</term><term>CMC</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-10" who="#vany">TEIHeader edited, encoding of text and bibliographic information, extension of bibliographic information.</change>
+            <change when="2016-11-21" who="#vany">Footnotes added.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The paper presents results from a curation project within CLARIN-D, in which an existing
+            1MWord corpus of German chat communication<note type="footnote">The Dortmund Chat
+               Corpus. <ref target="http://www.chatkorpus.tu-dortmund.de">http://www.chatkorpus.tu-dortmund.de</ref></note> has been integrated into the
+               DEREKO<note type="footnote"><ref target="http://www1.ids-mannheim.de/direktion/kl/projekte/korpora.html">http://www1.ids-mannheim.de/direktion/kl/projekte/korpora.html</ref></note> and
+               DWDS<note type="footnote"><ref target="http://dwds.de/ressourcen/korpora/">http://dwds.de/ressourcen/korpora/</ref></note> corpus infrastructures of the
+            CLARIN-D centres at the Institute for the German Language (IDS, Mannheim) and at the
+            Berlin-Brandenburg Academy of Sciences (BBAW, Berlin).<note type="footnote">Project
+               description. <ref target="http://de.clarin.eu/en/curation-project-1-3-german-philology">http://de.clarin.eu/en/curation-project-1-3-german-philology</ref></note> The
+            focus is on the solutions developed for converting and representing the corpus in a TEI
+            format. </p>
+         <p>The corpus, which has been collected and built in 2002-2008, has originally been
+            annotated using a home-grown XML format that describes the main structural features of
+            chat log files and user postings as well as selected linguistic phenomena of
+            computer-mediated communication (CMC). In order to ensure the sustainability of the
+            resource and its interoperability with the corpus collections already available in
+            CLARIN-D, one important subtask of the project was to define a schema and workflow for
+            remodeling the resource in TEI. Since TEI P5 in its current version doesn’t include any
+            models for the representation of CMC and social media genres, the project adopted and
+            extended the modeling suggestions which have been defined and discussed in previous work
+            of the TEI-SIG <q>computer-mediated communication (CMC)</q><note type="footnote"><ptr target="#beißwengeretal"/>; <ptr target="#chanieretal"/>; <ptr target="#margaretalüngen"/>.</note> and defined a workflow for the automatic,
+            lossless conversion of the source into the target schema. </p>
+         <p>The target schema<note type="footnote">The ODD and RNG file for the schema are available
+               in the TEI wiki at <ref target="http://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema">http://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema</ref>.</note> has
+            been tested not only with data from the chat corpus, but also with data from a range of
+            other types of CMC and social media genres (whatsapp interactions, wikipedia talk pages,
+            tweets, usenet posts) in order to provide a useful solution for the encoding of other
+            corpora of that type as well. The schema and conversion workflow will be used for the
+            integration of more CMC and social media corpora into the CLARIN-D infrastructures in
+            the near future. </p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct xml:id="beißwengeretal">
+               <analytic>
+                  <author><persName><surname>Beißwenger</surname><forename>Michael</forename></persName></author>
+                  <author><persName><surname>Ermakova</surname><forename>Maria</forename></persName></author>
+                  <author><persName><surname>Geyken</surname><forename>Alexander</forename></persName></author>
+                  <author><persName><surname>Lemnitzer</surname><forename>Lothar</forename></persName></author>
+                  <author><persName><surname>Storrer</surname><forename>Angelika</forename></persName></author>
+                  <title>A TEI Schema for the Representation of Computermediated
+                     Communication</title>
+               </analytic>
+               <monogr>
+                  <title>Journal of the Text Encoding Initiative</title>
+                  <imprint>
+                     <biblScope unit="vol">3</biblScope>
+                     <date>2012</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://jtei.revues.org/476">http://jtei.revues.org/476</ref>
+            </biblStruct>
+            <biblStruct xml:id="chanieretal">
+               <analytic>
+                  <author><persName><surname>Chanier</surname><forename>Thierry</forename></persName></author>
+                  <author><persName><surname>Poudat</surname><forename>Celine</forename></persName></author>
+                  <author><persName><surname>Sagot</surname><forename>Benoit</forename></persName></author>
+                  <author><persName><surname>Antoniadis</surname><forename>Georges</forename></persName></author>
+                  <author><persName><surname>Wigham</surname><forename>Ciara</forename></persName></author>
+                  <author><persName><surname>Hriba</surname><forename>Linda</forename></persName></author>
+                  <author><persName><surname>Longhi</surname><forename>Julien</forename></persName></author>
+                  <author><persName><surname>Seddah</surname><forename>Djamé</forename></persName></author>
+                  <title>The CoMeRe corpus for French: structuring and annotating heterogeneous CMC
+                     genres</title>
+               </analytic>
+               <monogr>
+                  <title>Journal of Language Technology and Computational Linguistics (JLCL)</title>
+                  <imprint>
+                     <biblScope unit="issue">29/2</biblScope>
+                     <biblScope unit="pp">1-30</biblScope>
+                     <date>2014</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://www.jlcl.org/2014_Heft2/1Chanier-et-al.pdf">http://www.jlcl.org/2014_Heft2/1Chanier-et-al.pdf</ref>
+            </biblStruct>
+            <biblStruct xml:id="margaretalüngen">
+               <analytic>
+                  <author><persName><surname>Margaretha</surname><forename>Eliza</forename></persName></author>
+                  <author><persName><surname>Lüngen</surname><forename>Harald</forename></persName></author>
+                  <title>Building Linguistic Corpora from Wikipedia Articles and Discussions</title>
+               </analytic>
+               <monogr>
+                  <title>Journal of Language Technology and Computational Linguistics (JLCL)</title>
+                  <imprint>
+                     <biblScope unit="issue">29/2</biblScope>
+                     <biblScope unit="pp">59-82</biblScope>
+                     <date>2014</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://www.jlcl.org/2014_Heft2/3MargarethaLuengen.pdf">http://www.jlcl.org/2014_Heft2/3MargarethaLuengen.pdf</ref>
+            </biblStruct>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

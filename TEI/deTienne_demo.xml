@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>STEP Transcriptor: a comprehensive TEI-XML compliant transcription app</title>
+            <author>
+               <persName>
+                  <forename>André</forename>
+                  <surname>De Tienne</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>STEP Transcriptor: a comprehensive TEI-XML compliant transcription app</title>
+                  <author>
+                     <persName>
+                        <forename>André</forename>
+                        <surname>De Tienne</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">165-166</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-12" type="submission"><desc>Submitted for review by the author.</desc></event>
+               <event when="2016-07-19" type="finalUpload"><desc>Submitted for publication by the author.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>demonstration</term>
+      </keywords>
+         <keywords><term>STEP Transcriptor</term><term>manuscript transcription</term><term>software</term><term>TEI-XML encoding</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-12-19" who="#vany">TEIHeader edited, encoding of text.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>STEP Transcriptor is the most advanced of several tools being developed to accompany the
+            creation of the online Scholarly Text Editing Platform, a general solution that provides
+            a complete transcription, editing, annotation, and layout workflow for scholarly editing
+            projects. STEP Transcriptor has been designed and engineered to help transcribers encode
+            complex texts easily while complying with TEI’s manuscript transcription encoding rules.
+            The app (for Mac and Windows) takes care of nearly all of the tedious aspects of TEI
+            encoding. It provides five distinct encoding methods (via pull-down menus, pop-up menus,
+            function keys, keyboard shortcuts, and specialized tagging cursors) that help insert
+            tags, attributes, and values accurately while minimizing typing. Several specialized
+            widgets automatically take care of especially complex encoding situations (including
+            nested alterations and transpositions). STEP Transcriptor automatically creates lists of
+            well-described alterations. It also provides a separate field to enter all sorts of
+            descriptive tags, separately from transcriptive tags. Everything about the app is
+            customizable: the content of menus, the selection of TEI tags, attributes, and values,
+            even tag colors. The software can be used to start transcriptions from scratch or to
+            improve existing transcriptions, all of which can be imported or exported in a variety
+            of file formats. It can be used independently of the STEP platform. A key objective is
+            to help editorial projects train and retain transcribers by providing them with a
+            sophisticated tool that is reliable and easy to use. The tool helps flatten TEI’s
+            learning curve while producing correctly encoded transcriptions. It provides multiple
+            views of the texts, rendered or not rendered, encoded with or without anchors. The
+            demonstration will focus on the core functionalities of the application.</p>
+      </body>
+   </text>
+</TEI>

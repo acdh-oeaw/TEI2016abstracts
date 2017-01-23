@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>From DOCX via TEI to Literature Map</title>
+            <author>
+               <persName instant="false" full="yes">
+                  <forename full="yes">Joseph</forename>
+                  <surname full="yes">Wang</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347" instant="false" full="yes">
+                  <forename full="yes">Claudia</forename>
+                  <surname full="yes">Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany" instant="false" full="yes">
+                  <forename full="yes">Vanessa</forename>
+                  <surname full="yes">Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717" instant="false" full="yes">
+                  <forename full="yes">Tanja</forename>
+                  <surname full="yes">Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" instant="false" full="yes">
+                  <forename full="yes">Vanessa</forename>
+                  <surname full="yes">Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani" instant="false" full="yes">
+                  <forename full="yes">Daniel</forename>
+                  <surname full="yes">Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08" instant="false">8 November 2016</date>
+            <availability default="false" status="unknown">
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p part="N">The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p part="N">The license was added for the print version of this text on August 2, 2016.</p>
+                  <p part="N">The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false" status="draft">
+               <analytic>
+                  <title>From DOCX via TEI to Literature Map</title>
+                  <author>
+                     <persName instant="false" full="yes">
+                        <forename full="yes">Joseph</forename>
+                        <surname full="yes">Wang</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347" instant="false" full="yes">
+                     <forename full="yes">Claudia</forename>
+                     <surname full="yes">Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230" instant="false" full="yes">
+                        <forename full="yes">Vanessa</forename>
+                        <surname full="yes">Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717" instant="false" full="yes">
+                        <forename full="yes">Tanja</forename>
+                        <surname full="yes">Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName instant="false" full="yes"><forename full="yes">Sandra</forename>
+                        <surname full="yes">Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20" instant="false">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">153-154</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent default="false">
+               <event when="2016-05-15" type="submission" instant="false">
+                  <desc>Submitted for review by the author.</desc>
+               </event>
+               <event when="2016-07-25" type="consent" instant="false">
+                  <desc>Consent to publication by the author.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p part="N">Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass default="false"><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>Literature Map</term><term>DOCX2TEI</term><term>linked open data</term></keywords></textClass></profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2016-11-04" who="#dani" status="draft">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2017-01-19" who="#vany" status="draft">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <p part="N">Data in literary studies often have references to location and time: Writers do
+               travel and stage scenes in their novels often in places they have visited. By
+               conveying these data together with geographical maps, we are able to create a
+               so-called literature map that gives us an overview of the relationship between
+               biography and writing of an author. But we can also compare depictions of a place
+               across several authors, which is of interest for historians and geographers. Of
+               course, these data is also useful for literary traveler's guides.</p>
+            <p part="N">The project <q>Tyrol / South Tyrol - A literary topography</q> (funded
+               by Austrian Science Fund FWF, P26039) aims at the gathering of such geo- and
+               time-referenced data and the creation of literature maps for the Tyrolean region. We
+               use a database consisting of two parts for our work: a document repository (for TEI
+               data and images), and a RDBMS (managing metadata of authors, places, keywords, texts,
+               dates, as well as relationships among them). Open government data and authority
+               records are used for raw maps and metadata on places and people, TEI and DOCX are
+               used for gathering literary data. By doing so, we can use a text-centric workflow by
+               annotating texts, which is more natural for scholars in the humanities.</p>
+            <p part="N">For each author and place, we create a DOCX document. A table at the beginning of the
+               document captures metadata of the entities; biographical notes and primary texts
+               follow the table. Using the stylesheet- and remark-function of MS Word, we are able
+               to add annotations on places, dates and keywords to the texts. The data-ingest
+               routine converts DOCX to TEI, and then it extracts data from the TEI-document for the
+               relational database. After the conversion has been reviewed by scholars, the data is
+               then ingested to the document repository and the relational database.</p>
+      </body>
+   </text>
+</TEI>

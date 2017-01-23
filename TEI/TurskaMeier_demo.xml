@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Early Print: annotation module for TEI</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/307490314">
+                  <forename>Magdalena</forename>
+                  <surname>Turska</surname>
+               </persName>
+               <persName>
+                  <forename>Wolfgang</forename>
+                  <surname>Meier</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Early Print: annotation module for TEI</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/307490314">
+                        <forename>Magdalena</forename>
+                        <surname>Turska</surname>
+                     </persName>
+                     <persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Meier</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">169-170</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-14" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-25" type="finalUpload"><desc>Submitted for publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>demonstration</term>
+      </keywords>
+         <keywords><term>annotation</term><term>stand-off</term><term>TEI Processing Model</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-12-19" who="#vany">TEIHeader edited, encoding of text.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>EarlyPrint project aims to create an environment for collaborative curation of EEBO
+            collection, spanning over 60 thousands of texts. Its core part and subject of this
+            demonstration, currently under development, is an annotation module tightly integrated
+            with the reading view. The process of annotation is thus highly intuitive, resembling
+            the workflow with paper and pencil, which encourages work on the text in a natural way
+            while reading it.</p>
+         <p>Annotations, which can be roughly classified into two categories:</p>
+         <list rend="bulleted">
+         <item>editorial changes or text critical annotations</item>
+         <item>public or private notes which comment on the text and may eventually lead to discussion
+            threads developing as other users refer to existing comments</item></list>
+         <p>will be all stored in a stand‐off format aligned with W3C’s Web Annotation Data Model.
+            The first category of annotations is supposed to result, after annotation review
+            process, in a new version of established TEI encoding which merges in accepted
+            annotations. To achieve this goal, the project employs a technology called web
+            components, which allows to define custom HTML elements and attach actions, as well as
+            user interface components to them. Combined with use of TEI Processing Model for
+            transformations into HTML enriched with custom elements, this approach leads to a
+            modular design, allowing to add more components for different types of editing tasks
+            over time. The project’s timeline assumes starting with a small number of components to
+            handle the most common defects in EEBO, and later adding more without having to change
+            the core application.</p>
+         <p>Exposing annotations using the Web Annotation Data Model, we aim to foster
+            interoperability with other, similar software, and add another layer of abstraction to
+            make it easier to build upon and extend for purposes which are beyond the immediate
+            scope of the EEBO project.</p>
+      </body>
+   </text>
+</TEI>

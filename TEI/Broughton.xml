@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding Text as a Nexus of Perspective Hierarchies: Case Studies in XML, LMNL, and RDF</title>
+            <author>
+               <persName>
+                  <forename>William Michael</forename>
+                  <surname>Broughton</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Encoding Text as a Nexus of Perspective Hierarchies: Case Studies in XML, LMNL, and RDF</title>
+                  <author>
+                     <persName>
+                        <forename>William Michael</forename>
+                        <surname>Broughton</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">57-58</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission"><desc>Submitted for review by the author.</desc></event>
+               <event when="2016-07-25" type="finalUpload"><desc>Submitted for publication by the author.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>XML</term><term>RDF</term><term>LMNL</term><term>OHCO</term><term>standoff</term><term>modelling</term><term>chicken</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-08" who="#vany">TEIHeader edited, encoding of text.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>It is a fairly easy thing to challenge long standing best practices, especially in a
+            field as increasingly sophisticated as ours is; it is an altogether more difficult
+            thing, however, to actually put that audacious theorizing into practice. I have
+            previously advanced the argument that many of the ills facing the encoding of textual
+            resources are due less to the technical limitations of our practice, but rather to the
+            model of text which underpins it. Instead, I suggest a model of text which extends the
+            (often bemoaned, though still influential) OHCO model, envisioning text not as a single
+            structured hierarchy of content object, but rather as a multidimensional matrix of
+            sometimes conflicting, but ultimately interrelated, hierarchies of values. Modeling text
+            – and encoding it – thus would, I argued, allow for nearly seamless data interchange and
+            interoperability, and also for the simultaneous encoding of divergent interpretation
+            within a single interpretative hierarchy – the encoding of dissensus – within a single
+            resource.</p>
+         <p>However, the time has come to put this theory into practice. What would a text encoded
+            in this way look like? How would it operate? And could any existing encoding scheme or
+            language stand up to the demands I require of it? To answer these questions, I have
+            encoded a single textual source (Doug Zonker’s <q>Chicken Chicken Chicken: Chicken
+            Chicken</q>) using a layered, dimensional approach using three separate encoding languages:
+            TEI-flavored XML, the Layered Markup and Annotation Language (LMNL), and the Resource
+            Description Framework (RDF), serialized as JSON-LD. While each of the encoding schemes
+            offers unique benefits to the problem, they bring many and varied challenges as well.
+            But both the benefits and the challenges provide valuable insight into the work of
+            reconsidering text as more than the one thing, or even as more than one thing at the
+            same time.</p>
+      </body>
+   </text>
+</TEI>

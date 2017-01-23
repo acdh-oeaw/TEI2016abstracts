@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI customization for TEI Conference 2016 - Book of Abstracts</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </author>
+            <author>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Hand-knitted digitally.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <schemaSpec ident="oddex1" start="TEI">
+            <moduleRef key="header" include="edition availability change editorialDecl encodingDesc fileDesc idno keywords licence listChange profileDesc publicationStmt quotation revisionDesc sourceDesc teiHeader textClass titleStmt"/>
+            <moduleRef key="core" include="hi ptr p analytic author bibl biblScope biblStruct date desc editor graphic head imprint item list listBibl monogr note pubPlace publisher q ref resp respStmt series term title"/>
+            <moduleRef key="textstructure" except="argument back byline closer dateline div1 div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText front group imprimatur opener postscript salute signed titlePage titlePart trailer"/>
+            <moduleRef key="namesdates" include="forename event listEvent persName surname"/>
+            <moduleRef key="figures" include="figure"/>
+            <moduleRef key="tei"/>
+            <moduleRef key="tagdocs" include="att gi tag val"/>
+         </schemaSpec>
+      </body>
+   </text>
+</TEI>

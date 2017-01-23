@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Encoding a Dictionary of Russian Dialects in TEI and linking to LOD
+               Resources</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/249676043">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+               <persName>
+                  <forename>Kira</forename>
+                  <surname>Kovalenko</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/186172418">
+                  <forename>Thierry</forename>
+                  <surname>Declerck</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/306137134">
+                  <forename>Eveline</forename>
+                  <surname>Wandl-Vogt</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title> Encoding a Dictionary of Russian Dialects in TEI and linking to LOD
+                     Resources</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/249676043">
+                        <forename>Daniel</forename>
+                        <surname>Schopper</surname>
+                     </persName>
+                     <persName>
+                        <forename>Kira</forename>
+                        <surname>Kovalenko</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/186172418">
+                        <forename>Thierry</forename>
+                        <surname>Declerck</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/306137134">
+                        <forename>Eveline</forename>
+                        <surname>Wandl-Vogt</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+                  <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">99-100</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-12" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>A Dictionary of Russian Dialects</term><term>TEI</term><term>Linked Data</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Within a cooperation project between the Russian and Austrian Academies of Sciences, we
+            are investigating the TEI encoding of the Dictionary of Russian dialects, which contains
+            more than 300,000 entries distributed over 48 volumes. The goal of the study is to
+            increase accessibility, interoperability and reusability of this rich source of
+            dialectal data. Our current proposal for a TEI representation consists in encoding the
+            official Russian word as a TEI <gi>entry</gi> element and to use the <gi>cit</gi>
+            element for each occurrence of a dialect form (within the <gi>quote</gi> element).
+            Within the <gi>cit</gi> element, we then also include within the <gi>usg</gi> element
+            the geo-location for indicating the region in which the dialect form is used. And
+            finally, we include in the <gi>cit</gi> block available bibliographical information
+               (<gi>bibl</gi>) – in most cases, from which source the dialect word has been
+            collected. </p>
+         <p>The meaning of the entry is given in the original dictionary in the form of free text.
+            We are currently working on offering more structure to this part of the original
+            entries, with relevant parts tagged as <gi>name</gi>s or, if more flexibility is needed
+            (not only proper nouns), <q>referring strings</q>
+            <gi>rs</gi>. In the context of the <gi>name</gi> element, we include then also
+            conceptual information, for example that an entry is the name of a family of plants (…
+               <tag>name type="botanicFamily"</tag>сложноцветных<tag>/name</tag>…), which we can
+            then link to the scientific name of this family: <tag>name type="plant"
+               subtype="scientific" key="taxonid:.." xml:lang="la"</tag>Taraxacum officinale
+               Wegg.<tag>/name</tag>. This way, we can easily link the original entry in the
+            dialectal dictionary to taxonomic datasets that are available in the Linked Open Data
+            cloud, and to other language data included in the Linguistic Linked Open Data. </p>
+      </body>
+   </text>
+</TEI>

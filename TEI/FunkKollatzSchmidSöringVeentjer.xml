@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Around the world in a TextGrid day. Edit, manage, publish, and explore your TEI
+               data with TextGrid and DARIAH-DE</title>
+            <author>
+               <persName>
+                  <forename>Stefan E.</forename>
+                  <surname>Funk</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/311735519">
+                  <forename>Thomas</forename>
+                  <surname>Kollatz</surname>
+               </persName>
+               <persName>
+                  <forename>Oliver</forename>
+                  <surname>Schmid</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/818147270494635700004">
+                  <forename>Sibylle</forename>
+                  <surname>Söring</surname>
+               </persName>
+               <persName>
+                  <forename>Ubbo</forename>
+                  <surname>Veentjer</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Around the world in a TextGrid day. Edit, manage, publish, and explore your
+                     TEI data with TextGrid and DARIAH-DE</title>
+                  <author>
+                     <persName>
+                        <forename>Stefan E.</forename>
+                        <surname>Funk</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/311735519">
+                        <forename>Thomas</forename>
+                        <surname>Kollatz</surname>
+                     </persName>
+                     <persName>
+                        <forename>Oliver</forename>
+                        <surname>Schmid</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/818147270494635700004">
+                        <forename>Sibylle</forename>
+                        <surname>Söring</surname>
+                     </persName>
+                     <persName>
+                        <forename>Ubbo</forename>
+                        <surname>Veentjer</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">177-181</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-12" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-16" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>The <gi>q</gi> element was used to represent all quotationmarks.</p>
+            </quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial
+               process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>workshop</term>
+            </keywords>
+            <keywords>
+               <term>Digital Research Infrastructures</term>
+               <term>Digital scholarly editions</term>
+               <term>Digital archiving</term>
+               <term>Digital repositories</term>
+               <term>Digital research data</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-12-19" who="#vany">TEIHeader edited, encoding of text and
+               bibliographic information, extension of bibliographic information.</change>
+            <change when="2017-01-18" who="#vany">Keywords added.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This workshop can be seen as a follow-up to the TEI 2015 Lyon panel on <q>Shared
+               Platforms for TEI Community: TextGrid, TAPAS, DARIAH</q> which discussed various TEI
+            based repositories, common user requirements and research scenarios, and their
+            technological frameworks.</p>
+         <p>The workshop will explore two infrastructures, TextGrid and DARIAH-DE, at work, focusing
+            on modeling a <q>prototype</q> digital edition starting with a plain text, finishing
+            with a TEI-based online publication.</p>
+         <div>
+            <head>Outline</head>
+            <p>Digital editions are one of the core applications of TEI. However, when it comes to
+               not only generating, but publishing enriched data in a standardized, interoperable
+               way, researchers find themselves confronted with a variety of both scholarly and
+               technological decisions and requirements. TextGrid and DARIAH-DE support researchers
+               during the entire process of generating, archiving, and presenting their TEI data in
+               an interoperable environment.</p>
+            <p>TextGrid is a virtual research environment for the Humanities funded by the German
+               Ministry for Education and Research (BMBF). It enables the collaboration of
+               researchers at different places as well as archiving and publication of research data
+               in an XML-based repository, following international standards. Core components are
+               the TextGrid Repository, an XML-based long-term research data archive, and the
+               TextGrid Laboratory, an adaptable software bundle for collaborative digital scholarly
+               editing based on XML/TEI. TextGrid is part of the digital research infrastructure
+               DARIAH-DE, equally funded by the BMBF, to provide a sustainable digital
+               infrastructure for humanities research. Users benefit from both portfolios with one
+               single login.</p>
+            <p>On the basis of text extracts from Jules Verne’s “Around the World in 80 Days”,
+               participants will transcribe, markup, annotate and geo-refer TEI data with the help
+               of TextGridLab and the DARIAH-DE Geo-Browser. The encoded data will then be published
+               via the TextGrid and DARIAH-DE repository and into a web platform (online edition)
+               through SADE (Scalable Architecture for Digital Editions).</p>
+            <p>Workshop participants will explore the diversity of the digital research environment
+               TextGrid as well as tools and services of the research infrastructure DARIAH-DE and
+               its possibilities for digital analysis. An introduction to both infrastructures,
+               illustrated by examples from various user scenarios, will be followed by a hands-on
+               session focusing on editing and modeling TEI data, particularly of digital editions,
+               to their publication and exploration. Following these steps, participants will be
+               able to explore the different tools and services to generate, model and publish
+               XML/TEI data guided by TextGrid and DARIAH staff members in small groups according to
+               their own interests and needs. The aim is to create a small digital edition starting
+               with a facsimile and a transcription, enriching data with extended markup such as
+               geospatial encoding, and publishing into both the TextGrid Repository and a SADE
+               instance (web portal).</p>
+         </div>
+         <div>
+            <list rend="bulleted">
+               <head>step 1 – Users and roles</head>
+               <item>The Project and User Management to administrate folders, files and access
+                  rights. </item>
+            </list>
+         </div>
+         <div>
+            <list rend="bulleted">
+               <head>step 2 – Editing</head>
+               <item>An XML editor allows working with XML files by offering the user a tree-,
+                  source-code, WYSIWYM and web preview. A Unicode Character Table allows easy
+                  searching, copying and inserting of any symbol in the Unicode character set.
+                  Alternatively, oXygen XML Editor can be embedded. </item>
+               <item>A customizable Metadata Editor for creating and administrating metadata of
+                  TextGrid objects that can be used for project-overlapping queries. </item>
+               <item>The Text Image Link Editor supports the XML Editor in linking text and image
+                  segments as well as serving as an image annotator. An output file links text
+                  elements with the topographical position of a rectangular or polygonal image
+                  segment as SVG, as needed for linking facsimiles and transcriptions in digital
+                  editions. </item>
+               <item>The image viewer and referencing tool DigiLib covers a gallery view of several
+                  images, zoom, scaling, marking, and referencing functions. </item>
+            </list>
+         </div>
+         <div>
+            <list rend="bulleted">
+               <head>step 3 – Publishing</head>
+               <item>Publishing into the TextGrid Repository: A digital long-term archive for
+                  humanities research data to guarantee long-range availability and accessibility
+                  together with extensive search facilities, different download formats, and tools
+                  for further exploration and visualization.</item>
+               <item>The software SADE – Scalable Architecture for Digital Editions supports the
+                  publication of TEI data in the TextGridLab into web portals.</item>
+            </list>
+            <list rend="bulleted">
+               <head>step 4 – Exploring published editions in the repository</head>
+               <item>Browsing and exploring published editions within TextGridRep and SADE,
+                  including persistent identifiers for referencing each object.</item>
+               <item>Visualization of spatio-temporal information via the DARIAH-DE
+                  Geo-Browser.</item>
+               <item>Reference tools for both text and image annotation, creating interoperable and
+                  referenceable data.</item>
+               <item>Visualization of quantitative text analyses with DigiVoy.</item>
+            </list>
+         </div>
+         <div><listBibl>
+            <head>References</head>
+            <bibl>DARIAH-DE. <ref target="https://de.dariah.eu/dariah-de-english">https://de.dariah.eu/dariah-de-english</ref></bibl>
+            <bibl>TextGrid. <ref target="https://textgrid.de/en/">https://textgrid.de/en/</ref></bibl>
+            <bibl>TextGrid Registration. <ref target="https://textgrid.de/registrierung/download">https://textgrid.de/registrierung/download</ref></bibl>
+            <bibl>TextGrid Lab (Download). <ref target="https://textgrid.de/download">https://textgrid.de/download</ref></bibl>
+            <bibl>TextGrid Rep. <ref target="https://textgridrep.org">https://textgridrep.org</ref></bibl>
+            <bibl>TextGrid Online Documentation and Wiki. <ref target="https://wiki.de.dariah.eu/display/TextGrid/Main+Page">https://wiki.de.dariah.eu/display/TextGrid/Main+Page</ref></bibl>
+            <bibl>DARIAH-DE Geo-Browser and Datasheet Editor. <ref target="http://geobrowser.de.dariah.eu">http://geobrowser.de.dariah.eu</ref></bibl>
+            <bibl>DigiVoy. <ref target="https://de.dariah.eu/digivoy">https://de.dariah.eu/digivoy</ref></bibl>
+            <bibl>SADE. <ref target="http://sade.textgrid.de/exist/apps/SADE/textgrid/index.html">http://sade.textgrid.de/exist/apps/SADE/textgrid/index.html</ref></bibl>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Blümm</surname><forename>Mirjam</forename></persName></author>
+                  <author><persName><surname>Funk</surname><forename>Stefan
+                     E.</forename></persName></author>
+                  <author><persName><surname>Söring</surname><forename>Sibylle</forename></persName></author>
+                  <title>Die Infrastruktur-Angebote von DARIAH-DE und TextGrid</title>
+               </analytic>
+               <monogr>
+                  <title>Information. Wissenschaft &amp; Praxis</title>
+                  <imprint>
+                     <biblScope unit="issue">66/5-6</biblScope>
+                     <date>2015</date>
+                     <biblScope unit="pp">304-312</biblScope>
+                  </imprint>
+               </monogr>
+               <ref target="http://dx.doi.org/10.1515/iwp-2015-0055">http://dx.doi.org/10.1515/iwp-2015-0055</ref>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Hedges</surname><forename>Mark</forename></persName></author>
+                  <author><persName><surname>Neuroth</surname><forename>Heike</forename></persName></author>
+                  <author><persName><surname>Smith</surname><forename>Kathleen
+                        M.</forename></persName></author>
+                  <author><persName><surname>Blanke</surname><forename>Tobias</forename></persName></author>
+                  <author><persName><surname>Romary</surname><forename>Laurent</forename></persName></author>
+                  <author><persName><surname>Küster</surname><forename>Marc</forename></persName></author>
+                  <author><persName><surname>Illingworth</surname><forename>Malcolm</forename></persName></author>
+                  <title>TextGrid, TEXTvre, and DARIAH: Sustainability of Infrastructures for
+                     Textual Scholarship</title>
+               </analytic>
+               <monogr>
+                  <title>Journal of the Text Encoding Initiative</title>
+                  <imprint>
+                     <biblScope unit="issue">5</biblScope>
+                     <date>2013</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://textgrid.de/fileadmin/publikationen/TextGrid__TEXTvre__and_DARIAH_-_Sustainability_of_Infrastructures_for_Textual_Scholarship_Hedges__Neuroth__Smith__Blanke__Romary__K%C3%BCster__Illingworth_2013.pdf">https://textgrid.de/fileadmin/publikationen/TextGrid__TEXTvre__and_DARIAH_-_Sustainability_of_Infrastructures_for_Textual_Scholarship_Hedges__Neuroth__Smith__Blanke__Romary__K%C3%BCster__Illingworth_2013.pdf</ref>
+            </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author><persName><surname>Kollatz</surname><forename>Thomas</forename></persName></author>
+                     <title>Raum-Zeit-Analysen mit Geo-Browser und Datasheet-Editor</title>
+                  </analytic>
+                  <monogr>
+                     <title>Bibliothek – Forschung und Praxis</title>
+                     <editor><persName><surname>Neuroth</surname><forename>Heike</forename></persName></editor>
+                     <editor>et al.</editor>
+                     <imprint>
+                        <date>2016</date>
+                     </imprint>
+                     <biblScope unit="pp">229-233</biblScope>
+                  </monogr>
+                  <series>
+                     <title>Sonderheft DARIAH-DE</title>
+                     <biblScope unit="issue">40/2/1-6</biblScope>
+                  </series>
+               </biblStruct>
+            <biblStruct>
+               <monogr>
+                  <editor><persName><surname>Neuroth</surname><forename>Heike</forename></persName></editor>
+                  <editor><persName><surname>Rapp</surname><forename>Andrea</forename></persName></editor>
+                  <editor><persName><surname>Söring</surname><forename>Sibylle</forename></persName></editor>
+                  <title>TextGrid: Von der Community für die Community – Eine Virtuelle
+                     Forschungsumgebung für die Geisteswissenschaften</title>
+                  <imprint>
+                     <date>2015</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://www.univerlag.uni-goettingen.de/handle/3/Neuroth_TextGrid">http://www.univerlag.uni-goettingen.de/handle/3/Neuroth_TextGrid</ref>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Söring</surname><forename>Sibylle</forename></persName></author>
+                  <title>Technische und infrastrukturelle Lösungen für digitale Editionen: DARIAH-DE
+                     und TextGrid</title>
+               </analytic>
+               <monogr>
+                  <title>Bibliothek – Forschung und Praxis</title>
+                  <editor><persName><surname>Neuroth</surname><forename>Heike</forename></persName></editor>
+                  <editor>et al.</editor>
+                  <imprint>
+                     <date>2016</date>
+                  </imprint>
+                  <biblScope unit="pp">207-212</biblScope>
+               </monogr>
+               <series>
+                  <title>Sonderheft DARIAH-DE</title>
+                  <biblScope unit="issue">40/2/1-6</biblScope>
+               </series>
+            </biblStruct>
+         </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

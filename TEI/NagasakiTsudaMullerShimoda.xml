@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tagging on Buddhist Images via IIIF and TEI encoding</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/252742522">
+                  <forename>Kiyonori</forename>
+                  <surname>Nagasaki</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/192915359">
+                  <forename>Tetsuei</forename>
+                  <surname>Tsuda</surname>
+               </persName>
+               <persName>
+                  <forename>A. Charles</forename>
+                  <surname>Muller</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/113240825">
+                  <forename>Masahiro</forename>
+                  <surname>Shimoda</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Tagging on Buddhist Images via IIIF and TEI encoding</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/252742522">
+                        <forename>Kiyonori</forename>
+                        <surname>Nagasaki</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/192915359">
+                        <forename>Tetsuei</forename>
+                        <surname>Tsuda</surname>
+                     </persName>
+                     <persName>
+                        <forename>A. Charles</forename>
+                        <surname>Muller</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/113240825">
+                        <forename>Masahiro</forename>
+                        <surname>Shimoda</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">141-143</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-15" type="finalUpload"><desc>Submitted for publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>Buddhist images</term><term>IIIF</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-24" who="#vany">TEIHeader edited, encoding of text and footnotes.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>In this poster presentation, we would like to show an implementation of IIIF and an
+            experiment of TEI encoding for a series of Buddhist images and text in the Taishō
+            Tripitaka, which consists of 12 volumes originally published in 1933.<note type="footnote"><ref target="http://dzkimgs.l.u-tokyo.ac.jp/SATi/images.php">http://dzkimgs.l.u-tokyo.ac.jp/SATi/images.php</ref></note> The series
+            includes images of Buddhist saints, mandalas, rituals, and so on. The implementation
+            enables searching for the images by keyword in English as well as Japanese. The search
+            results are cropped by the IIIF Image API. From this result window, users can make three
+            kinds of selections:</p>
+         <list type="ordered">
+            <item>to see large images by clicking each image,</item>
+            <item>to see zoomable images by clicking a page number,</item>
+            <item>to see zoomable images in parallel.</item></list>
+            <figure>
+               <head>Figure 1</head>
+               <graphic url="imgs/figure2.png"/>
+            </figure>
+         <p>By clicking a checkbox of cropped images, the small thumbnail of the image is listed on
+            a small cart. Users can add more thumbnails onto the cart in the same way (Fig. 1).
+            After that, when a user clicks the <q>reveal all in parallel</q> button, the listed images
+            are shown in parallel on Mirador windows (Fig. 2). Moreover, annotations are shown on
+            each tagged region.</p>
+            <figure>
+               <head>Figure 2</head>
+               <graphic url="imgs/figure3.png"/>
+            </figure>       
+         <p>The annotations explain hair style, sitting style, type of chair, belongings, and so on.
+            Then, the user can search from this annotation window by clicking an attribute (Fig. 3).</p>
+         <p>The user can also see an object in one window like this. The annotations are not yet
+            completed, the number is around 5,200, about 20 percent of all images so far. They were
+            inputted by around 30 researchers of art history to promote research of Buddhist images
+            from the viewpoint of art history through a web collaborative tagging system. Moreover,
+            we are trying to encode the images according to the TEI Guidelines as parts of books. We
+            will present the attempt.</p>
+            <figure>
+               <head>Figure 3</head>
+               <graphic url="imgs/figure4.png"/>
+            </figure>    
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Móricz Digital Edition — Possibilities and connections of a correspondence
+               material</title>
+            <author>
+               <persName>
+                  <forename>Judit</forename>
+                  <surname>Kodolányi</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Móricz Digital Edition — Possibilities and connections of a correspondence
+                     material</title>
+                  <author>
+                     <persName>
+                        <forename>Judit</forename>
+                        <surname>Kodolányi</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">83-84</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the author.</desc>
+               </event>
+               <event when="2016-07-19" type="finalUpload">
+                  <desc>Submitted for publication by the author.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>letters</term><term>correspondence</term><term>critical edition</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The presentation explores the possibilities and characteristics of the digitalization by
+            TEI XML coding of a substantial sized correspondence, based on the lessons of a
+            currently pursued project. In the framework of the Petőfi Literary Museum of Budapest,
+            since February 2016, we have been processing the correspondence of the 20th century
+            Hungarian prose writer Zsigmond Móricz. We have some 3,000 letters to be processed, from
+            the quarter century extending to 1923, and covering half of his artistic career. The aim
+            is the preparation of a digital edition that includes the criteria for a critical
+            edition for professional audiences, such as annotation and text variants as well as the
+            advantages offered by a digital edition, while also offering an enjoyable reading to the
+            general reader. The research regards the correspondence as a special corpus of texts,
+            which consists of various units possessing peculiar metadata and independent references.
+            These create an organic system of multiple connections among the units and with external
+            data. One of the main objects of the programme is the recovery and integration of these
+            connections, and their presentation and accessibility on a publicly accessible webpage,
+            not simply on the level of metadata but also in their embeddedness in the text. We are
+            also concentrating on connecting the product of our work to the major databases.</p>
+         <p>It is important that the structure of processing is based on the peculiar nature of the
+            accumulation of literary legacies. The lecture intends to demonstrate the formal
+            framework that we have created in the interest of uniform integration of new units and
+            handling of the description of correspondence. At the present phase, we are working on
+            the specific methods applicable to the material, suitable for scientific markup.</p>
+      </body>
+   </text>
+</TEI>

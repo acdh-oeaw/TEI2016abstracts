@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding Text about Things</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/58911587">
+                  <forename>Georg</forename>
+                  <surname>Vogeler</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Encoding Text about Things</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/58911587">
+                        <forename>Georg</forename>
+                        <surname>Vogeler</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">113-115</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission"><desc>Submitted for review by the author.</desc></event>
+               <event when="2016-07-08" type="finalUpload"><desc>Submitted for publication by the author.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Semantic Web</term><term>Ontologies</term><term>Digital Edition</term><term>RDFa</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-23" who="#vany">TEIHeader edited, encoding of text and bibliographic information, extension of bibliographic information.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>There is a discussion in the TEI community about the possibilities to encode ontologies
+            with the TEI vocabulary and there is even a SIG on the subject. With the move to P5, the
+            TEI already added several concepts dedicated to the description of <q>things</q> (msDesc,
+            person, place, event etc.) and thus left the ground of text encoding in a narrow sense.
+            In the last decade, another technological development dealing with digital
+            representations of <q>things</q> has taken momentum: the semantic web. The paper will
+            contribute to the reflection about the relationship between the Semantic Technologies
+            proposed by the W3C and the TEI. Its argument starts sticking to the narrow sense of
+            <q>text</q> encoding, i.e. the concept of text as a structure of linguistic symbols. The
+            relationship between <q>things</q> and text can then be considered as a reference. The TEI
+            offers many methods to establish this kind of references, e.g. the att.canonical
+            attribute class. This gives the possibility to express references to <q>things</q> which are
+            named individuals. References to classes or analytic concepts can be expressed with the
+            <att>ana</att>, <att>type</att> and the <att>inst</att> attributes, which are globally available.</p>
+         <p>The power of the W3C Semantic Web standards lies in the highly flexible basic
+            definitions, which still can effectively be processed: Abstract IRI for the
+            symbolization of concepts and <q>things</q> and the expression of assertion about the <q>real
+            world</q> in simple statements, formalized as <q>subject-predicate-object</q> triples. With RDFa,
+            the W3C has proposed a method to integrate formal semantic statements into HTML text.</p>
+         <p>Projects in which textual information in a digital edition is related to abstract data
+            have shown that easy extraction of highly structured data from texts is a benefit.
+            Theoretically, this approach can draw on the basic insights by Manfred Thaller on source
+            oriented data processing since the 1980s and information theory by Börje Langefors<ref target="#langeforsdahlbom"/>.</p>
+         <p>The question the TEI community should discuss, is therefore how TEI markup can
+            facilitate the conversion of encoded text into semantic web statements. Is the bunch of
+            <att>key</att>, <att>ref</att>, <att>ana</att>, <att>inst</att>, link / linkGroup, arc mechanisms more effective than RDFa markup?</p>
+         <p>At the current stage, the question is open. In my paper, I will try to develop some
+            features of RDFa, which seem to be useful to be considered in the further development of
+            the TEI standards on handling the relationship between text and things.</p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct xml:id="langeforsdahlbom">
+               <monogr>
+                  <author><persName><surname>Langefors</surname><forename>Börje</forename></persName></author>
+                  <author><persName><surname>Dahlbom</surname><forename>Bo</forename></persName></author>
+                  <title>Essays on Infology. Summing up and planning for the future</title>
+                  <imprint>
+                     <pubPlace>Stockholm</pubPlace>
+                     <publisher>Lund</publisher>
+                     <date>1995</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="thaller1988a">
+               <analytic>
+                  <author><persName><surname>Thaller</surname><forename>Manfred</forename></persName></author>
+                  <title>Data Bases vs. Critical Editions</title>
+               </analytic>
+               <monogr>
+                  <title>HSR / Historische Sozialforschung</title>
+                  <imprint>
+                     <biblScope unit="issue">13/3</biblScope>
+                     <biblScope unit="pp">129-139</biblScope>
+                     <date>1988</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="thaller1989">
+               <analytic>
+                  <author><persName><surname>Thaller</surname><forename>Manfred</forename></persName></author>
+                  <title>Datenbasen als Editionsformen</title>
+               </analytic>
+               <monogr>
+                  <editor><persName><surname>Schwob</surname><forename>Anton</forename></persName></editor>
+                  <editor><persName><surname>Kranich-Hofbauer</surname><forename>Karin</forename></persName></editor>
+                  <title>Historische Edition und Computer</title>
+                  <imprint>
+                     <pubPlace>Graz</pubPlace>
+                     <biblScope unit="pp">215-241</biblScope>
+                     <date>1989</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="thaller1988b">
+               <analytic>
+                  <author><persName><surname>Thaller</surname><forename>Manfred</forename></persName></author>
+                  <title>Gibt es eine fachspezifische Datenverarbeitung in den historischen
+                     Wissenschaften? Quellenbanktechniken in der Geschichtswissenschaft</title>
+               </analytic>
+               <monogr>
+                  <editor><persName><surname>Kaufhold</surname><forename>Karl
+                        Heinrich</forename></persName></editor>
+                  <editor><persName><surname>Schneider</surname><forename>Jürgen</forename></persName></editor>
+                  <title>Geschichtswissenschaft und elektronische Datenverarbeitung</title>
+                  <imprint>
+                     <pubPlace>Wiesbaden</pubPlace>
+                     <biblScope unit="pp">45-83</biblScope>
+                     <date>1988</date>
+                  </imprint>
+               </monogr>
+               <series><title>Beiträge zur Wirtschafts- und Sozialgeschichte</title><biblScope unit="vol">36</biblScope></series>
+            </biblStruct>
+            <biblStruct xml:id="thaller2012">
+               <analytic>
+                  <author><persName><surname>Thaller</surname><forename>Manfred</forename></persName></author>
+                  <title>What is a text within the Digital Humanities, or some of them, at
+                     least?</title>
+               </analytic>
+               <monogr>
+                  <title>dh2012 – Book of Abstracts</title>
+                  <imprint>
+                     <pubPlace>Hamburg</pubPlace>
+                     <date>2012</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://www.dh2012.unihamburg.de/conference/programme/abstracts/beyond-embedded-markup">http://www.dh2012.unihamburg.de/conference/programme/abstracts/beyond-embedded-markup</ref>
+            </biblStruct>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

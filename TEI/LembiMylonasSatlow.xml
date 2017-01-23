@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliography in the Inscriptions of Israel / Palestine Epigraphic Project</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/64289700">
+                  <forename>Gaia</forename>
+                  <surname>Lembi</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/311203805">
+                  <forename>Elli</forename>
+                  <surname>Mylonas</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/69143584">
+                  <forename>Michael</forename>
+                  <surname>Satlow</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Bibliography in the Inscriptions of Israel / Palestine Epigraphic Project</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/64289700">
+                        <forename>Gaia</forename>
+                        <surname>Lembi</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/311203805">
+                        <forename>Elli</forename>
+                        <surname>Mylonas</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/69143584">
+                        <forename>Michael</forename>
+                        <surname>Satlow</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">135-137</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-20" type="finalUpload"><desc>Submitted for publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>Bibliography</term><term>Epidoc</term><term>Epigraphy</term><term>Zotero</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-23" who="#vany">TEIHeader edited, encoding of text, footnotes and bibliographic information, extension of bibliographic information.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The Inscriptions of Israel / Palestine project (IIP) has been aggregating and
+            transcribing previously published inscriptions and translations from Israel / Palestine
+            from the Persian period through the Islamic conquest (ca. 500 BCE - 640 CE). There are
+            about 15,000 inscriptions, written primarily in Hebrew, Aramaic, Greek, and Latin, by
+            Jews, Christians, Greeks, and Romans. The project began under the direction of Michael
+            Satlow at the University of Virginia in 1997, and has been located at Brown since 2002.
+            Inscriptions are encoded using the EpiDoc Guidelines, and have extensive metadata that
+            allows them to be searched and browsed on the web via a faceted interface.</p>
+         <p>Following practices described in the EpiDoc Guidelines<note type="footnote"><ref target="http://www.stoa.org/epidoc/gl/latest/supp-bibliography.html">http://www.stoa.org/epidoc/gl/latest/supp-bibliography.html</ref></note>, IIP has been maintaining
+            bibliographic entries in a master bibliography, and referring to these from individually
+            encoded inscriptions. Since IIP has always employed student encoders, many of the
+            selection criteria cited by Bański et al.<note type="footnote"><ptr target="#banskietal"/></note> apply to this project as well: Bibliographic
+            data entry and editing has to be collaborative, web based and unambiguous. As a
+            multilingual project, IIP also records Hebrew and Greek titles in their original
+            character set.</p>
+         <p>In an earlier stage of the project, the bibliography was handled in a customized SQL
+            database, which provided useful features such as controlled lists of journal
+            abbreviations. When the project was upgraded in 2013, we decided to replace the custom
+            bibliographic database with Zotero, which did not require maintenance on our part and
+            had a versatile API, which allowed us to access citations directly when displaying an
+            inscription in our interface. IIP assigns ID numbers to bibliographic entries, following
+            the form [IIP0000], and uses the ID to reference a citation. Zotero also assigns ID
+            numbers to bibliographic entries. However, these are automatic, and function as database
+            keys, so they are essentially not part of the citation data: We decided therefore to
+            store the IIP ID in the Zotero <q>Loc in Archive</q> field, on the premise that it is our
+            project catalog number. In order for the Zotero API to retrieve a particular citation,
+            we also save it as a Zotero tag for the entry, since the Zotero API can only access tags
+            and a restricted number of bibliographic fields. Unlike the LingSIG bibliography, we
+            didn’t need to convert our bibliography to TEI in order to integrate it into our
+            inscription files. It was enough that the Zotero API, using the Citation Style Language
+            (CSL), an open language used by a variety of citation managers, could provide formatted
+            citations for our display.</p>
+         <p>Our original custom bibliographic system provided especially useful features for
+            ensuring data integrity such as authority lists for journal names and abbreviations and
+            specialized geographic tagging that made it possible to view all items pertaining to a
+            particular location. It did not handle particularly sophisticated bibliographic
+            structures however because we had customizations for each new type of reference. We lost
+            these features when we moved to Zotero, but gained a different set of affordances such
+            as the ability to handle more complex bibliographic structures, to use and customize
+            Zotero’s formatted output. Zotero, as a native bibliographic system, can handle more
+            bibliographic types than our own database could, although some complex older scholarly
+            publications are still problematic.</p>
+         <p>We feel that our choice of an external bibliographic system – particularly Zotero, which
+            is freely available, independently searchable, and can act as a re-useable, standalone
+            bibliography of sources for inscriptions from Israel / Palestine – is an efficient
+            choice that allows us to work with different types of material using the tools most
+            appropriate for each. In the future, when the IIP corpus is complete, it will be
+            necessary to incorporate full bibliographic entries as <gi>bibl</gi>s into each encoded
+            inscription for archival purposes.</p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct xml:id="banskietal">
+               <analytic>
+                  <author><persName><surname>Bański</surname><forename>Piotr</forename></persName></author>
+                  <author><persName><surname>Majewski</surname><forename>Stefan</forename></persName></author>
+                  <author><persName><surname>Stührenberg</surname><forename>Maik</forename></persName></author>
+                  <author><persName><surname>Werthmann</surname><forename>Antonina</forename></persName></author>
+                  <title>Building and Maintaining the TEI LingSIG Bibliography</title>
+               </analytic>
+               <monogr>
+                  <title>Journal of the Text Encoding Initiative</title>
+                  <imprint>
+                     <biblScope unit="issue">3</biblScope>
+                     <date>2012</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://jtei.revues.org/486">http://jtei.revues.org/486</ref>
+            </biblStruct>
+            <bibl xml:id="citation">Citation Style Language. <ref target="http://citationstyles.org">http://citationstyles.org</ref></bibl>
+            <biblStruct xml:id="elliottetal">
+               <monogr>
+                  <author><persName><surname>Elliott</surname><forename>Tom</forename></persName></author>
+                  <author><persName><surname>Bodard</surname><forename>Gabriel</forename></persName></author>
+                  <author><persName><surname>Mylonas</surname><forename>Elli</forename></persName></author>
+                  <author><persName><surname>Stoyanova</surname><forename>Simona</forename></persName></author>
+                  <author><persName><surname>Tupman</surname><forename>Charlotte</forename></persName></author>
+                  <author><persName><surname>Vanderbilt</surname><forename>Scott</forename></persName></author>
+                  <author>et al.</author>
+                  <title>EpiDoc Guidelines: Ancient documents in TEI XML (Version 8)</title>
+                  <imprint>
+                     <date>2007-2014</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://www.stoa.org/epidoc/gl/latest/">http://www.stoa.org/epidoc/gl/latest/ </ref>
+            </biblStruct>
+            <biblStruct xml:id="rotger">
+               <analytic>
+                  <author><persName><surname>Rotger</surname><forename>Carlos</forename></persName></author>
+                  <title>Using the Zotero API to Render Formatted Bibliography on a Webpage</title>
+               </analytic>
+               <monogr>
+                  <title>Center for Digital Scholarship News</title>
+                  <imprint>
+                     <date>2015</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://library.brown.edu/cds/2015/06/29/zotero-api-web/">http://library.brown.edu/cds/2015/06/29/zotero-api-web/</ref>
+            </biblStruct>
+            <biblStruct xml:id="satlow">
+               <monogr>
+                  <editor><persName><forename>Michael</forename><surname>Satlow</surname></persName></editor>
+                  <title>Inscriptions of Israel/Palestine</title>
+                  <imprint>
+                     <date>2002-2016</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://www.brown.edu/iip">http://www.brown.edu/iip</ref>
+            </biblStruct>
+            <biblStruct xml:id="teip5"><monogr><editor>TEI Consortium</editor><title>3.11 Bibliographic Citations and References. TEI P5:
+               Guidelines for Electronic Text Encoding and Interchange. 3.0.0</title><imprint><date>2016</date></imprint></monogr><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBI">http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBI
+               </ref></biblStruct>
+            <bibl xml:id="zotero">Zotero. <ref target="http://www.zotero.org">http://www.zotero.org</ref></bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

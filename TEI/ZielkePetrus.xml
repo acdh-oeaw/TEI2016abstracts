@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automating the validation of TEI metadata processing</title>
+            <author>
+               <persName>
+                  <forename>Dennis</forename>
+                  <surname>Zielke</surname>
+               </persName>
+               <persName>
+                  <forename>Alexander</forename>
+                  <surname>Petrus</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Automating the validation of TEI metadata processing</title>
+                  <author>
+                     <persName>
+                        <forename>Dennis</forename>
+                        <surname>Zielke</surname>
+                     </persName>
+                     <persName>
+                        <forename>Alexander</forename>
+                        <surname>Petrus</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">117</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-23" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-31" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Research data repository</term><term>TEI</term><term>data ingest</term><term>metadata</term><term>automation of validation process</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-08" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This proposal focuses on a TEI metadata ingest procedure, its automated validation and
+            presents the technical implementation as a feature for the data ingest process into the
+            LAUDATIO repository.</p>
+         <p>LAUDATIO is an open access research data repository for the persistent storage of
+            historical texts and its annotations based on the software framework Fedora.
+            Requirements concerning the metadata structure of historical corpora are identified
+            along with the data depositors. Hence, we will concentrate on the state of the ingest
+            process when depositor and repository manager have already agreed upon the use of a
+            standardized metadata schema. In LAUDATIO, we use TEI P5 as an established and widely
+            used disciplinary metadata format.</p>
+         <p>The initial validation of (depositor) submitted metadata is a necessary step to ensure a
+            minimum degree of consistency and represents the starting point for any later processing
+            steps. In most repositories, the data-ingest process is form-based. We present a case
+            where depositors have metadata structured in TEI format for which we provide a Graphical
+            User Interface to upload and automatically validate the submitted TEI metadata against
+            standardized schemes. We use the libXML2 library to provide its validation support
+            against the schema. Our proposed module replaces a form-based approach for creating
+            structured repository metadata. The validated metadata is not flawless though.</p>
+         <p>It relocates and strengthens the necessary cooperation of the repository manager and the
+            depositor. The depositor gets direct feedback and can correct the metadata immediately
+            and independently.</p>
+      </body>
+   </text>
+</TEI>

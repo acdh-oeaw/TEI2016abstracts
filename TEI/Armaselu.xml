@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Writing under the Magnifying Glass. Encoding the Text in Progress</title>
+            <author>
+               <persName> 
+                  <forename>Florentina</forename>
+                  <surname>Armaselu</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+               <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+               <date when="2016-11-08">8 November 2016</date>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                     <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                     <p>The license was added for the print version of this text on August 2, 2016.</p>
+                     <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                  </licence>
+               </availability>
+            </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Writing under the Magnifying Glass. Encoding the Text in Progress</title>
+                  <author>
+                     <persName>
+                        <forename>Florentina</forename>
+                        <surname>Armaselu</surname>
+                     </persName>
+                  </author></analytic>
+                  <monogr>
+                     <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                     </editor>
+                     <editor>
+                        <persName ref="http://viaf.org/viaf/31146030596135862230">
+                           <forename>Vanessa</forename>
+                           <surname>Hannesschläger</surname>
+                        </persName>
+                     </editor>
+                     <editor>
+                        <persName ref="http://viaf.org/viaf/70107717">
+                           <forename>Tanja</forename>
+                           <surname>Wissik</surname>
+                        </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+                     <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">31-33</biblScope>
+               </monogr>
+               
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission"><desc>Submitted for review by the author.</desc></event>
+               <event when="2016-07-19" type="finalUpload"><desc>Submitted for publication by the author.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>writing</term><term>textual zoom</term><term>text encoding</term><term>visualisation</term><term>text analysis</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+         <change when="2016-11-08" who="#vany #dani">TEIHeader edited, encoding of text, footnotes and bibliographic information, extension of bibliographic information.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>      
+      <body>
+         <p>Iser<note type="footnote"><ptr target="#iser"/></note> draws attention to the dual
+            nature of text, determined by its actual structure and the reader’s involvement
+            supplying what is not there. This involvement implies an <q>active interweaving of
+               anticipation and retrospection</q> and depends on the boundaries imposed by the
+            written versus unwritten text and on the <q>virtual dimension of the text</q>,
+            nor the text itself or the reader’s imagination, but the <q>coming together of text
+               and imagination</q><note type="footnote"><ref target="#iser"><bibl>Ibid.
+                        <biblScope unit="page">282</biblScope>, <biblScope unit="page">279</biblScope>.</bibl></ref></note>. In his reflections on photography,
+               Barthes<note type="footnote"><ptr target="#barthes"/></note> defines a similar
+            dynamics, that of the <q>unspeakable which wants to be spoken</q>, manifested
+            through the <q>punctum</q>, often a detail which triggers the spectator’s
+            subjectivity, resulting in something added to the photograph, an addition of <q>what
+               is nonetheless already there</q><note type="footnote"><ref target="#barthes"><bibl>Ibid. <biblScope unit="page">19</biblScope>, <biblScope unit="page">55</biblScope>.</bibl></ref></note>.</p>
+         <p>The present study proposes a view on the coming together of text and imagination,
+            anticipation and retrospection, written and unwritten, unspeakable wanting to be spoken,
+            from a different perspective: that of the text in progress, in its gradual development
+            during the process of writing. The proposal is centered on a textual model (z-text) and
+            interface (z-editor)<note type="footnote"><ptr target="#vasilescu"/><ptr target="#armaselu"/></note> allowing to keep trace of the evolving text and to
+            explore it <q>under the magnifying glass</q> by zoom-in and zoom-out
+            (z-reading). Z-text writing (z-writing) consists of the expansion of already written
+            fragments (z-lexias) by gradually adding new details to them. The model is based on TEI
+            encoding, to each level (phase of development) corresponding an XML-TEI file. The
+            z-lexias are marked-up by <gi>anchor</gi> elements and identifiers recording the
+            ancestors-descendants relationships engendered in the process. The paper will discuss
+            the textual model / interface and further ways of analysis / visualization /
+            transformation potentially supported by the encoding, inspired by concepts and studies
+            such as genetic graphs<note type="footnote"><ptr target="#burnardetal"/></note> or
+            informational entropy<note type="footnote"><ptr target="#shannon"/></note> applied to
+            linguistic analysis<note type="footnote"><ptr target="#marcus"/></note>.</p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct xml:id="vasilescu" type="dissertation">
+               <monogr>
+                  <author><surname type="current">Armaselu</surname>
+                     <surname type="former">Vasilescu</surname>
+                     <forename>Florentina</forename></author>
+                  <title>Le livre sous la loupe: Nouvelles formes d’écriture électronique</title>
+                  <ref target="https://papyrus.bib.umontreal.ca/xmlui/handle/1866/3964">Papyrus.
+                     University of Montreal Institutional Repository.
+                     https://papyrus.bib.umontreal.ca/xmlui/handle/1866/3964</ref>
+                  <idno type="handle">1866/3964</idno>
+                  <imprint>
+                     <date>2010</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="armaselu">
+               <analytic>
+                  <author><persName><surname>Armaselu</surname><forename>Florentina</forename></persName></author>
+                  <title>The Layered Text. From Textual Zoom, Text Network Analysis and Text
+                     Summarisation to a Layered Interpretation of Meaning</title>
+               </analytic>
+               <monogr>
+                  <editor><persName><surname>Bornet</surname><forename>Cyril</forename></persName></editor>
+                  <title>Digital Humanities Conference, Lausanne, Switzerland, 7-12 July 2014. Book
+                     of Abstracts</title>
+                  <imprint>
+                     <publisher>EPFL – UNIL</publisher>
+                     <pubPlace>Lausanne</pubPlace>
+                     <date>2014</date>
+                  </imprint>
+                  <biblScope>80-83</biblScope>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="barthes">
+               <monogr>
+                  <author><persName><surname>Barthes</surname><forename>Roland</forename></persName></author>
+                  <title>Camera Lucida. Reflections on Photography. Translated by Richard
+                     Howard</title>
+                  <imprint>
+                     <publisher>Hill and Wang</publisher>
+                     <date>1981</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="burnardetal">
+               <analytic>
+                  <author><persName><surname>Burnard</surname><forename>Lou</forename></persName></author>
+                  <author><persName><surname>Jannidis</surname><forename>Fotis</forename></persName></author>
+                  <author><persName><surname>Pierazzo</surname><forename>Elena</forename></persName></author>
+                  <author><persName><surname>Rehbein</surname><forename>Malte</forename></persName></author>
+                  <title>An Encoding Model for Genetic Editions</title>
+               </analytic>
+               <monogr>
+                  <title>Workgroup on Genetic Editions</title>
+                  <ref target="http://www.tei-c.org/Activities/Council/Working/tcw19.html">http://www.tei-c.org/Activities/Council/Working/tcw19.html</ref>
+                  <imprint>
+                     <date>2010</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="iser">
+               <monogr>
+                  <author><persName><surname>Iser</surname>
+                        <forename>Wolfgang</forename></persName></author>
+                  <title>The Implied Reader: Patterns of Communication in Prose Fiction from Bunyan
+                     to Beckett</title>
+                  <imprint>
+                     <publisher>Johns Hopkins University Press</publisher>
+                     <pubPlace>Baltimore</pubPlace>
+                     <date>1974</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="marcus">
+               <monogr>
+                  <author><persName><surname>Marcus</surname>
+                        <forename>Solomon</forename></persName></author>
+                  <title>Poetica matematică (Mathematical poetics)</title>
+                  <imprint>
+                     <publisher>Editura Academiei R.S.R.</publisher>
+                     <pubPlace>Bucureşti</pubPlace>
+                     <date>1970</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="shannon">
+               <analytic>
+                  <author><persName><surname>Shannon</surname>
+                        <forename>Claude E.</forename></persName></author>
+                  <title>A mathematical theory of communication</title>
+               </analytic>
+               <monogr>
+                  <title>The Bell System Technical Journal</title>
+                  <imprint>
+                     <date>1948</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEIScribe: A graphic tool for composing and testing TEI documents in the context of the EVI-LINHD environment</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/175982042">
+                  <forename>Elena</forename>
+                  <surname>González-Blanco</surname>
+               </persName>
+               <persName>
+                  <forename>Antonio</forename>
+                  <surname>Robles-Gómez</surname>
+               </persName>
+               <persName>
+                  <forename>Salvador</forename>
+                  <surname>Ros</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/261749100">
+                  <forename>Gimena</forename>
+                  <surname>Del Rio Riande</surname>
+               </persName>
+               <persName>
+                  <forename>Roberto</forename>
+                  <surname>Hernández</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/296443412">
+                  <forename>Miguel</forename>
+                  <surname>Urizar</surname>
+               </persName>
+               <persName>
+                  <forename>Clara I.</forename>
+                  <surname>Martínez</surname>
+               </persName>
+               <persName>
+                  <forename>Rafael</forename>
+                  <surname>Pastor</surname>
+               </persName>
+               <persName>
+                  <forename>Jesús</forename>
+                  <surname>Cano</surname>
+               </persName>
+               <persName>
+                  <forename>Agustín C.</forename>
+                  <surname>Caminero</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>TEIScribe: A graphic tool for composing and testing TEI documents in the context of the EVI-LINHD environment</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/175982042">
+                        <forename>Elena</forename>
+                        <surname>González-Blanco</surname>
+                     </persName>
+                     <persName>
+                        <forename>Antonio</forename>
+                        <surname>Robles-Gómez</surname>
+                     </persName>
+                     <persName>
+                        <forename>Salvador</forename>
+                        <surname>Ros</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/261749100">
+                        <forename>Gimena</forename>
+                        <surname>Del Rio Riande</surname>
+                     </persName>
+                     <persName>
+                        <forename>Roberto</forename>
+                        <surname>Hernández</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/296443412">
+                        <forename>Miguel</forename>
+                        <surname>Urizar</surname>
+                     </persName>
+                     <persName>
+                        <forename>Clara I.</forename>
+                        <surname>Martínez</surname>
+                     </persName>
+                     <persName>
+                        <forename>Rafael</forename>
+                        <surname>Pastor</surname>
+                     </persName>
+                     <persName>
+                        <forename>Jesús</forename>
+                        <surname>Cano</surname>
+                     </persName>
+                     <persName>
+                        <forename>Agustín C.</forename>
+                        <surname>Caminero</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">73-75</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-26" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-07" type="finalUpload"><desc>Submitted for publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Text Encoding Initiative (TEI)</term><term>Digital Humanities (DH)</term><term>Virtual Research Environments (VREs)</term><term>Lab</term><term>Digital scholarly edition</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text, footnotes and bibliographic information, extension of bibliographic information.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Digital Humanities can be seen as a boundary discipline that requires cooperation and
+            common agreements and views among many scientific communities.<note type="footnote"><ptr target="#delrioriande"/></note> This is the case of Virtual Research Environments
+            (VREs), as they facilitate researchers and users from different communities a place to
+            develop, store, share, and preserve their work.<note type="footnote"><ptr target="#carusireimer"/></note> The first Digital Humanities Center in Spain,
+            LINHD, the Digital Innovation Lab at UNED has started developing EVILINHD, the first VRE
+            for Spanish-speakers.<note type="footnote"><ptr target="#gonzalesblanco"/></note> The
+            environment offers researchers a collaborative space in the cloud to manage all phases
+            of their projects: the edition process, storage into the database, and text
+            visualization in several output formats, such as HTML. In order to facilitate digital
+            scholarly editing, a specific tagging tool has been developed as a cloud application
+            implemented with Vaadin, an open-source Java framework and integrated in EVILINHD:
+               TEIScribe.<note type="footnote"><ptr target="#teiscribe"/></note></p>
+         <p>TEIScribe helps the Digital Humanities community to concurrently label texts with TEI
+            without XML knowledge through a graphic and intuitive design that aims to break language
+            and technological barriers. The tool, which was conceived and developed for the BIESES
+            project in order to boost collaborative work<note type="footnote"><ptr target="#barandaleturio"/></note>, is based on some of the existing collaborative
+            cloud editors (such as FontoXML, or CWRC writer), so its learning curve is low. The
+            creation, modification, and eliminating of labels and attributes is done with only a few
+            mouse clicks. Since not all projects have the same labeling needs<note type="footnote"><ptr target="#spadini"/></note>, each text in TEIScribe is linked to a particular
+            scheme that establishes the TEI file structure (an XML file). All documents employed by
+            the application are stored in a NoSQL database, a documental database, namely eXistdb,
+            which organizes the different XML documents and schemes by project, and their
+            correspondence. In this way, the tool greatly simplifies the user’s work, since it can
+            automatically detect and highlight mistakes on labels, which do not meet the requirement
+            of associated schemes.</p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct xml:id="barandaleturio">
+               <monogr>
+                  <author><persName><surname>Baranda
+                        Leturio</surname><forename>Nieves</forename></persName></author>
+                  <title>BIESES project. BIografía de EScritoras ESpañolas</title>
+                  <imprint>
+                     <date>.</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://www.bieses.net/">http://www.bieses.net/</ref>
+            </biblStruct>
+            <biblStruct xml:id="carusireimer">
+               <monogr>
+                  <author><persName><surname>Carusi</surname><forename>Annamaria</forename></persName></author>
+                  <author><persName><surname>Reimer</surname><forename>Torsten</forename></persName></author>
+                  <title>Virtual Research Environment Collaborative Landscape Study. A JISC funded
+                     project</title>
+                  <imprint>
+                     <publisher>Oxford e-Research Centre, University of Oxford and Centre for
+                        e-Research, King’s College London</publisher>
+                     <date>2010</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://www.jisc.ac.uk/rd/projects/virtual-research-environments">https://www.jisc.ac.uk/rd/projects/virtual-research-environments</ref>
+            </biblStruct>
+            <biblStruct xml:id="gonzalesblanco">
+               <analytic>
+                  <author><persName><surname>González-Blanco</surname><forename>Elena</forename></persName></author>
+                  <title>Un nuevo camino hacia las humanidades digitales. El laboratorio de
+                     innovación en humanidades digitales de la UNED (LINHD)</title>
+               </analytic>
+               <monogr>
+                  <title>Signa. Revista de la Asociación Española de Semiótica</title>
+                  <imprint>
+                     <biblScope unit="pp">79-93</biblScope>
+                     <biblScope unit="issue">25</biblScope>
+                     <date>2016</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://dialnet.unirioja.es/servlet/articulo?codigo=5476762">https://dialnet.unirioja.es/servlet/articulo?codigo=5476762</ref>
+            </biblStruct>
+            <biblStruct xml:id="delrioriande">
+               <analytic>
+                  <author><persName><surname>Del Río
+                        Riande</surname><forename>Gimena</forename></persName></author>
+                  <title>Humanidades Digitales. Construcciones locales en contextos globales</title>
+               </analytic>
+               <monogr>
+                  <title>SEDICIBlog</title>
+                  <imprint>
+                     <date>2016</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://sedici.unlp.edu.ar/blog/2016/03/22/humanidades-digitales-construccioneslocales-en-contextos-globales/">http://sedici.unlp.edu.ar/blog/2016/03/22/humanidades-digitales-construccioneslocales-en-contextos-globales/
+               </ref>
+            </biblStruct>
+            <biblStruct xml:id="delrioriandeetal">
+               <analytic>
+                  <author><persName><surname>Del Río
+                        Riande</surname><forename>Gimena</forename></persName></author>
+                  <author><persName><surname>González-Blanco
+                           García</surname><forename>Elena</forename></persName></author>
+                  <author><persName><surname>Martínez
+                        Cantón</surname><forename>Clara</forename></persName></author>
+                  <author><persName><surname>Escribano</surname><forename>J.</forename></persName></author>
+                  <title>EVI-LINHD. A Virtual Research Environment for the Spanish-speaking
+                     Community</title>
+               </analytic>
+               <monogr>
+                  <title>Digital Humanities Conference (DH 2016)</title>
+                  <imprint>
+                     <date>2016</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct xml:id="spadini">
+               <analytic>
+                  <author><persName><surname>Spadini</surname><forename>Elena</forename></persName></author>
+                  <title>TEI and web-based editing tools</title>
+               </analytic>
+               <monogr>
+                  <title>DiXiT Blog</title>
+                  <imprint>
+                     <date>2015</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://dixit.hypotheses.org/107">http://dixit.hypotheses.org/107</ref>
+            </biblStruct>
+            <bibl xml:id="teiscribe">TEIScribe: Testing session in EVILINHD. <ref target="http://www.evilinhd.com:8080/TextEditor/?session=prueba">http://www.evilinhd.com:8080/TextEditor/?session=prueba</ref></bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

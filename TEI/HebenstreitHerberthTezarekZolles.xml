@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Andreas Okopenko: diaries from the poet’s estate (hybrid edition)</title>
+            <author>
+               <persName>
+                  <forename>Desiree</forename>
+                  <surname>Hebenstreit</surname>
+               </persName>
+               <persName>
+                  <forename>Arno</forename>
+                  <surname>Herberth</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/100576375">
+                  <forename>Laura</forename>
+                  <surname>Tezarek</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/296142770">
+                  <forename>Christian</forename>
+                  <surname>Zolles</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Andreas Okopenko: diaries from the poet’s estate (hybrid edition)</title>
+                  <author>
+                     <persName>
+                        <forename>Desiree</forename>
+                        <surname>Hebenstreit</surname>
+                     </persName>
+                     <persName>
+                        <forename>Arno</forename>
+                        <surname>Herberth</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/100576375">
+                        <forename>Laura</forename>
+                        <surname>Tezarek</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/296142770">
+                        <forename>Christian</forename>
+                        <surname>Zolles</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">131-132</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-13" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-08-01" type="consent">
+                  <desc>Consent to publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>Austrian avantgarde</term><term>literary legacy</term><term>diaries</term><term>hybrid edition</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-23" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>In the year 2012, the Literary Archives of the Austrian National Library acquired the
+            rights to the literary estate of the Austrian poet Andreas Okopenko (1930-2010), winner,
+            among others, of the Grand Austrian State Prize for Literature (1998) and the Georg
+            Trakl Prize (2002). His estate is a comprehensive collection of diary notations,
+            typescripts, notes, correspondence, and other material. It has been partly arranged by
+            the poet himself, and its classification has been informally continued by the Literary
+            Archives. Regarding text-genetical (1.), poetological (2.) and literary historical (3.)
+            aspects, the diaries are the core of the 28 boxes of the poet’s estate (which has to be
+            matched with the 25 boxes of the pre mortem bequest).</p>
+         <p>Throughout his life, Andreas Okopenko kept a position outside of all existing literary
+            trends. This means that the estate is important in at least three ways: It allows us to
+            compare his personal writings with the typescripts and text variants and to lay the
+            foundations for a comprehensive text-genetical study and interpretation for Okopenko’s
+            experimental work – ranging from literary small forms to essays and radio plays, up to
+            his best known avant-gardist novels Lexikon-Roman (1970) and Kindernazi (1984) (1.).
+            Furthermore, Okopenko’s writing is characterized by providing a feeling of <q>personal</q>
+            realism (Concretionism) and by a high level of cultural self-reflection. As such, the
+            estate stands as a formidable individualistic testimony of contemporary Austrian history
+            (2.). Finally, Okopenko turned out to be a reserved but rigorous observer of the
+            literary scene in Austria’s Second Republic. Therefore, the diaries in particular will
+            provide different views on the formation and the local value of Austrian literature
+            (3.). The first-range importance of the literary estate as a whole can be found in the
+            areas of text-genetical and interpretational research and in literary and contemporary
+            history. Okopenko’s highly personal perceptions and awareness of his own historical
+            context make him a distinguished <q>archaeologist</q>, <q>archivist</q> and <q>chronicler</q> of his
+            time.</p>
+         <p>Above all, the first-range importance of the literary estate can be found in the area of
+            Digital Humanities. Regarding Okopenko’s pioneer work in hypertext-poetry, the project
+            will focus on an annotated digital edition of the diaries (following the TEI Guidelines)
+            connected to the website of the Austrian National Library in a sustainable manner and
+            with unlimited access. In addition, the most significant parts of the annotated diaries
+            will be printed. A close collaboration between the Department for German Studies of the
+            University of Vienna (Univ.-Prof. Dr. Roland Innerhofer) and the Literary Archives
+            (Priv.-Doz. Dr. Bernhard Fetz) will guarantee the optimal valorization of the estate and
+            will represent Okopenko’s writing in a contemporary light.</p>
+      </body>
+   </text>
+</TEI>

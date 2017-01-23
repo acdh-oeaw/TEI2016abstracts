@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The BVH in Tours and the <q>Bibliotheques françoises</q> project</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/200939827">
+                  <forename>Toshinori</forename>
+                  <surname>Uetani</surname>
+               </persName>
+            </author>
+            <author>
+               <persName ref="http://viaf.org/viaf/300847613">
+                  <forename>Sandrine</forename>
+                  <surname>Breuil</surname>
+               </persName>
+            </author>
+            <author>
+               <persName>
+                  <forename>Mathieu</forename>
+                  <surname>Duboc</surname>
+               </persName>
+            </author>
+            <author>
+               <persName>
+                  <forename>Guillaume</forename>
+                  <surname>Porte</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>The BVH in Tours and the <q>Bibliotheques françoises</q> project</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/200939827">
+                        <forename>Toshinori</forename>
+                        <surname>Uetani</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/300847613">
+                        <forename>Sandrine</forename>
+                        <surname>Breuil</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName>
+                        <forename>Mathieu</forename>
+                        <surname>Duboc</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName>
+                        <forename>Guillaume</forename>
+                        <surname>Porte</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">111-112</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-30" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Bibliothèques Virtuelles Humanistes</term><term>Bibliotheques françoises</term><term>workflows</term><term>bio-bibliographical database</term><term>interoperability</term><term>Renaissance French</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange ordered="true">
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-01-19" who="#vany">TEIHeader edited, encoding of text and
+               footnotes.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <p>The Bibliothèques Virtuelles Humanistes (BVH, or Virtual Humanistic
+               Libraries<note type="footnote" anchored="true"><ref target="http://www.bvh.univ-tours.fr/">http://www.bvh.univ-tours.fr/</ref>.</note>) is a project run since 2002 by a research team founded by
+               Marie-Luce Demonet in the Centre d'Études Supérieures de la Renaissance (CESR,
+               or Center for Advanced Renaissance Studies: The University of Tours and the CNRS,
+               France).</p>
+            <p>Its goal is to develop a digital library delivering two types of reliable digital
+               representations, facsimile and text, closely linked together. It offers more than
+               1,000 facsimiles of typical documents, imprints and manuscripts, of the 15th-17th
+               centuries and about 150 digital editions of French Renaissance texts online. Texts
+               are directly transcribed from the original document and encoded with the XML-TEI
+               standard, adapted to French Renaissance spelling. Our main concern is to merge two
+               workflows of digitization and textual edition following usually two distinct
+               processes, using a single XML schema and to ensure a close correspondence between
+               these two datasets (image-text) incorporating rich metadata.</p>
+            <p>This long-term program of early modern document corpora is kept partly by several
+               public funding on projects, that is why we diversify projects like the Rabelais
+               website<note type="footnote" anchored="true"><ref target="http://renom.univ-tours.fr">http://renom.univ-tours.fr</ref>.</note> and the <q>Montaigne at work</q> project<note type="footnote" anchored="true"><ref target="http://montaigne.univtours.fr">http://montaigne.univtours.fr</ref>.</note>,
+               providing accurate digital editions and proposing particular modes of reading and
+               navigation of masterpieces of Renaissance literature.</p>
+            <p>Since 2015, the <q>Bibliotheques Françoises</q> project combines a digital
+               edition and databases. The texts of the first bio-bibliographical dictionaries of
+               French authors, Bibliotheque of La Croix du Maine (Paris, 1584) and that of Du
+               Verdier (Lyon, 1585), are encoded in XML-TEI and the bio-bibliographical recordings
+               extracted from the structured text constitute specific databases. These datasets
+               aligned with online databases (biographical data with VIAF; bibliographical records
+               with ISTC, USTC, VD 16, Edit 16 or GLN 15-16) form a dynamic web-space of
+               interoperability and further links to digitized original documents will be a useful
+               tool for data accuracy.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EuRED: XML-TEI in database structure</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/172241593">
+                  <forename>François</forename>
+                  <surname>Vignale</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>EuRED: XML-TEI in database structure</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/172241593">
+                        <forename>François</forename>
+                        <surname>Vignale</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">151</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-07-23" type="submission">
+                  <desc>Submitted for review by the author.</desc>
+               </event>
+               <event when="2016-07-25" type="finalUpload">
+                  <desc>Submitted for publication by the author.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>Customisation</term><term>Database</term><term>Data model</term><term>Reading studies</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-08" who="#vany">TEIHeader edited, encoding of text and
+               footnotes.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The EuRED (European Reading Experience Database) project<note type="footnote"><ref target="http://eured.univ-lemans.fr">http://eured.univ-lemans.fr</ref></note> consists of a RDBMS gathering
+            reading experiences made by Europeans from the 15th century until today. The database
+            has been inspired by the purely British UK-RED database<note type="footnote"><ref target="http://www.open.ac.uk/Arts/reading/UK">http://www.open.ac.uk/Arts/reading/UK</ref></note> which was launched in 2006 and
+            contains approximately 40,000 records. Our goal, by achieving a proof of concept, is to
+            give UK-RED a chronological and geographical extension with a European dimension, to
+            take care both of new sources (CMCs, etc.) and new needs expressed by researchers. This
+            is why new fields necessary to describe reading experiences have been added to UK-RED’s
+            data model. It was very quickly decided to reuse and convert the original data into TEI
+            P5 and, therefore, to build a new data model also based on TEI P5. The choice of TEI P5
+            is relevant for two main reasons: First, around 90% of the UK-RED fields can easily be
+            replaced by existing TEI P5 elements; second, TEI P5 is customizable. Thus a new class
+            (model.experienceDescPart) containing 23 new elements mostly linked with specific
+            thesaurii has been designed to help describing reading experiences. In EuRED’s data
+            model, these new elements are placed in the <gi>teiHeader</gi>and not in the
+               <gi>body</gi>. Besides the challenge of the conversion of UK-RED’s data, this
+            decision was made because EuRED is not a database gathering textual sources containing
+            transcriptions of reading experiences, but, on the contrary, a database gathering
+            transcriptions of reading experiences located in textual sources. The aim of this poster
+            is to explain and demonstrate how we use TEI P5, not only for encoding textual sources
+            but also for data model building and database management purposes.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Biography as compilation: How to edit Georg Nikolaus Nissen’s <q>Biographie
+                  W. A. Mozart’s</q> (1828) in TEI</title>
+            <author>
+               <persName>
+                  <forename>Anja</forename>
+                  <surname>Morgenstern</surname>
+               </persName>
+               <persName>
+                  <forename>Agnes</forename>
+                  <surname>Amminger</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Biography as compilation: How to edit Georg Nikolaus Nissen’s
+                        <q>Biographie W. A. Mozart’s</q> (1828) in TEI</title>
+                  <author>
+                     <persName>
+                        <forename>Anja</forename>
+                        <surname>Morgenstern</surname>
+                     </persName>
+                     <persName>
+                        <forename>Agnes</forename>
+                        <surname>Amminger</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">89-90</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-11" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-20" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation/>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>TEI-implementation</term><term>text analysis</term><term>Digital Mozart-Edition</term><term>Mozart reception</term><term>source criticism</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>As an implementation of TEI for textual analysis, the editing project of the early
+            <q>Biographie W. A. Mozart’s</q> (1828) by Nissen, part of the <q>Digital Mozart-Edition</q> (DME)
+            at the Mozart Foundation Salzburg, has recently started. The aim of the project is to
+            reveal the structure of the text by way of markup of the manifold sources, which Nissen
+            used for the biography: These comprise primary sources, such as original letters and
+            documents of the Mozart family, secondary sources, such as contemporary literature about
+            Mozart, and original texts written by the author and later editors.</p>
+         <p>In our presentation, we discuss the special challenges that arise when creating an
+            edition that focuses on how a text was compiled:</p>
+         <list type="ordered">
+            <item>The encoding of text passages, which often do not correlate with common text
+               structures (e.g. paragraphs, chapters).</item>
+            <item>The definition of different source types and responsible author / editors.</item>
+            <item>Linking the given source definitions to the text passages they refer to.</item>
+            <item>Integrating an exact bibliography of the sources as well as critical annotations
+               for each of the single text passages.</item>
+         </list>
+         <p>Additional features of the edition include:</p>
+         <list type="ordered">
+            <item>The linking of each identified source to digital resources such as the online
+               publications of the DME (“Mozart Letters and Documents – Online Edition”; the “Neue
+               Mozart-Ausgabe Online”) as well as digital collections of libraries and archives.</item>
+            <item>Indices of persons, locations, and works, using standardized data (e.g. GND).</item>
+            <item>The creation of a complete early Mozart bibliography up to 1828.</item>
+            <item>A search function with free and pre-installed options.</item>
+         </list>
+         <p>Our project fills a gap in Mozart research, presenting an annotated online edition of
+            this important early Mozart biography which was the first to use original letters of the
+            Mozart family, and, on the other hand, secondary texts on a large scale, though mostly
+            without references.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI Processing Model Toolbox</title>
+            <author>
+               <persName>
+                  <forename>Magdalena</forename>
+                  <surname>Turska</surname>
+               </persName>
+               <persName>
+                  <forename>Wolfgang</forename>
+                  <surname>Meier</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>TEI Processing Model Toolbox</title>
+                  <author>
+                     <persName>
+                        <forename>Magdalena</forename>
+                        <surname>Turska</surname>
+                     </persName>
+                     <persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Meier</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">109-110</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-14" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-25" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>existdb</term><term>tei publishing</term><term>TEI-Simple</term><term>TEI-Processing Model</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>As a result of the <q>digital turn</q>, editors find themselves in need of more technical
+            competences than were typically considered as core skills for a textual scholar. There
+            are many workshops available where people can learn the basics of TEI encoding in a
+            matter of days, and many are keen to try this method of work in their research.
+            Publishing of the documents encoded with TEI has nevertheless been a sore spot for the
+            TEI community. Simple questions: <q>How do I get my corpus online? How do I create a PDF?</q>
+            lead to a lengthy discussion of XSLT transforms and server setups, which usually cools
+            the enthusiasm.</p>
+         <p>The TEI Processing Model (TEI PM) aims to deal with the transformation part within the
+            TEI ODD language. Still, transformation is just one step when it comes to publishing.
+            Configuring the whole stack of technologies and creating an application necessary to run
+            the website adds several more layers of complexity.</p>
+         <p>TEI PM Toolbox is a spin‐off project of TEI Simple, carried on by Wolfgang Meier, which
+            offers an out‐of‐the‐box publishing of TEI documents. It is an application, which
+            incorporates TEI PM into eXistdb’s web server and application framework, allowing to
+            customize appearance of TEI texts with custom ODD enhanced with processing model
+            instructions. Newest addition to the Toolbox is an application generator allowing to
+            export a freestanding app covering all core features like browsing, search, and
+            generation of various media formats like HTML, PDF, LATeX, or ePUB.</p>
+         <p>We believe that TEI PM Toolbox is a very practical framework which substantially
+            empowers the editors, especially individual researchers or pilot projects, who struggle
+            to receive sufficient technical support. Following the principle of ODD (one document
+            does it all), it hides many implementation details, still leaving the editors full
+            control over their data and transformation process.</p>
+      </body>
+   </text>
+</TEI>

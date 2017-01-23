@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding crime and punishment: A digital collection of historic
+               broadsheets</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/249676043">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Encoding crime and punishment: A digital collection of historic
+                     broadsheets</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/249676043">
+                        <forename>Daniel</forename>
+                        <surname>Schopper</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">95-96</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-17" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-22" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation/>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Early modern texts</term><term>Historic broadsheets</term><term>Life stories</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text and
+               bibliographic information, extension of bibliographic information.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>With this contribution, the authors would like to take the audience on a local time
+            travel: The paper introduces a collection of 180 printed single broadsheets that report
+            on capital punishment in 18th century Vienna between 1700 and 1797. These so-called
+               <q>death sentences</q> have hardly ever been the object of investigation so
+            far.</p>
+         <p>Announcing the lives and crimes of the malefactors, the broadsheets show different
+            degrees of detail. The working group aims at covering personal data as a crucial part of
+            the text genre: Malefactors are not only mentioned with their names and age but also
+            with biographical information such as family background, religious denomination or
+            profession. Most importantly, the leaflets contain descriptions of the offences in
+            question, e.g. theft, incest, infanticide amongst others.</p>
+         <p>A granular metadata scheme based on the namesdates module will allow for detailed
+            analysis and enable researchers to answer questions like: What was the average age of
+            malefactors? Is there a correlation between the delinquents’ social status and their
+            delicts? Can we observe patterns of male and female criminality?</p>
+         <p>Already during its preparation, the annotated data provides insight into the exemplary
+            life stories of 18th century criminals in Vienna. By applying this scheme to the whole
+            corpus, the project group hopes to enhance its knowledge on historic executions, thus
+            laying empirical, well-grounded foundations for further research – also with the
+            prospect of facilitating the comparability with data from other European capital cities
+            at that time.</p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct>
+               <monogr>
+                  <author><persName><surname>Evans</surname><forename>Richard
+                        J.</forename></persName></author>
+                  <title>Rituals of retribution: capital punishment in Germany 1600-1987</title>
+                  <imprint>
+                     <pubPlace>Oxford [et al.]</pubPlace>
+                     <publisher>Oxford Univ. Press</publisher>
+                     <date>1996</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <monogr>
+                  <author><persName><surname>King</surname><forename>Peter</forename></persName></author>
+                  <title><q>Hanging not Punishment Enough</q>: The Criminal Corpse, the
+                     Criminal Justice System and Aggravated Forms of the Death Penalty in England,
+                     1700-1840</title>
+                  <imprint>
+                     <publisher>Palgrave MacMillan</publisher>
+                     <date>(forthcoming)</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>London Lives 1690 to 1800. Crime, Poverty and Social Policy in the Metropolis.
+                  <ref target="http://www.londonlives.org/">http://www.londonlives.org/</ref></bibl>
+            <biblStruct>
+               <monogr>
+                  <author><persName><surname>Spierenburg</surname><forename>Pieter</forename></persName></author>
+                  <title>Violence and punishment: civilizing the body through time</title>
+                  <imprint>
+                     <pubPlace>Cambridge [et al.]</pubPlace>
+                     <publisher>Polity Press</publisher>
+                     <date>2013</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <monogr>
+                  <editor><persName><surname>Ward</surname><forename>Richard</forename></persName></editor>
+                  <title>A Global History of Execution and the Criminal Corpse. Palgrave Historical
+                     Studies in the Criminal Corpse and its Afterlife</title>
+                  <imprint>
+                     <publisher>Palgrave Macmillan</publisher>
+                     <date>2015</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

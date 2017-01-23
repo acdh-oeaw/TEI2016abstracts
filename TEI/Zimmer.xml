@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI in the Archives: Unfolding the Bookshops in Paul’s Cross Churchyard</title>
+            <author>
+               <persName>
+                  <forename>Mary Erica</forename>
+                  <surname>Zimmer</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>TEI in the Archives: Unfolding the Bookshops in Paul’s Cross Churchyard</title>
+                  <author>
+                     <persName>
+                        <forename>Mary Erica</forename>
+                        <surname>Zimmer</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">157-158</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-31" type="submission"><desc>Submitted for review by the author.</desc></event>
+               <event when="2016-07-31" type="finalUpload"><desc>Submitted for publication by the author.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>TEI</term><term>archives</term><term>digitization</term><term>corpora</term><term>search</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-12-19" who="#vany">TEIHeader edited, encoding of text.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Writing in 2000 of <q>[d]igital archives combined with new technologies,</q> Seamus Ross
+            lauded this union’s ability to support <q>simultaneous access to a range of sources</q> as
+            well as development of <q>research methods not possible with […] printed or hand written
+            records</q> alone. Less frequently discussed, however, are ways digital connections may
+            enrich understanding of print and manuscript records themselves, while encouraging
+            scholarship that draws upon both. Recent projects such as Shakespeare Documented show
+            digitized archives’ potential not only for reuniting fragmented artifacts, but also for
+            evolving new, composite wholes to support research.</p>
+         <p>Such potential extends as well to encouraging engagement with existing scholarship.
+            Among salient examples potentially complemented by an approach of this kind would be the
+            landmark work of Peter W. M. Blayney, whose 1990 The Bookshops in Paul’s Cross
+            Churchyard uses meticulous archival research to map the evolving footprint of the shops
+            and their inhabitants. Resulting has been a powerful print visualization: a composite,
+            layered image of shops, their locations, and their inhabitants. Centrally, this project
+            proposes to create a digitized model of the context Blayney has rendered, while
+            connecting aspects of the reconstruction to the documents used to create it. Making the
+            research’s archival foundations visible honors the initial, seminal achievement while
+            encouraging exploration – and emulation – of the work.</p>
+         <p>The proposed project’s TEI encoding of key documents will observe existing permissions
+            while developing a composite resource. Connecting print and manuscript archives through
+            a third medium will provide perspective on ways early modern records may present
+            reciprocal and reinforcing information. Intersections with further early modern corpora
+            also appear promising, particularly given the January 2015 release of over 25,000
+            TEI-compliant SGML-encoded EEBO-TCP texts. Ultimately, TEI’s role as a common language
+            remains vital to the project’s success.</p>
+      </body>
+   </text>
+</TEI>

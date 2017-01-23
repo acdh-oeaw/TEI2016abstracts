@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><gi>msDesc</gi> at Oxford and Cambridge</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/312638971">
+                  <forename>Matthew Lawrence</forename>
+                  <surname>Holford</surname>
+               </persName>
+               <persName>
+                  <forename>Huw</forename>
+                  <surname>Jones</surname>
+               </persName>
+               <persName>
+                  <forename>James</forename>
+                  <surname>Cummings</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title><gi>msDesc</gi> at Oxford and Cambridge</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/312638971">
+                        <forename>Matthew Lawrence</forename>
+                        <surname>Holford</surname>
+                     </persName>
+                     <persName>
+                        <forename>Huw</forename>
+                        <surname>Jones</surname>
+                     </persName>
+                     <persName>
+                        <forename>James</forename>
+                        <surname>Cummings</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">79-80</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-13" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-22" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>manuscripts</term><term>msDesc</term><term>interoperability</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The TEI <gi>msDesc</gi> module was deliberately created as a flexible scheme, which
+            would <q>accommodate the needs of many different classes of encoders</q>. The potential price
+            of this flexibility is the development of discrete communities of practice among
+            different users of the module resulting in small but significant differences in encoding
+            which complicate interoperability and reuse of metadata. Many such differences can
+            indeed be identified. Not only has the module been relatively widely adopted by digital
+            catalogues of Western medieval manuscripts (the manuscripts for which the module was
+            originally most obviously designed). It has also been adopted by catalogues of
+            non-Western manuscripts and other text-bearing objects, such as Fihrist for Arabic
+            manuscripts and EpiDoc for ancient inscriptions. But there have been few assessments of
+            the overall strengths and weaknesses of the module, areas in which it typically succeeds
+            or fails.</p>
+         <p>This paper examines the use of the module using as case study a current project at the
+            Bodleian Library, Oxford and the University Library, Cambridge, which is assessing how
+            various cataloguing projects within both institutions have implemented the
+               <gi>msDesc</gi> module. The aim is to simplify the technical infrastructure for
+            storing and processing the TEI, to provide clearer guidance and improved workflow for
+            future cataloguers, to improve interoperability within and between the respective
+            institutions, and potentially to provide technical frameworks and metadata standards for
+            other institutions looking to create <gi>msDesc</gi> records.</p>
+         <p>Both institutions have developed a wide range of TEI manuscript catalogues: In addition
+            to Fihrist, both have contributed to the catalogue of Hebrew Genizah texts, and there
+            are catalogues of Tibetan, Sanskrit, and other manuscripts and documents. There are
+            considerable challenges in developing a TEI framework that is flexible enough to
+            accommodate the needs of these different sources, while strict enough to meet the
+            demands outlined above.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Early Modern Slovenian Manuscripts Between Description, Critical Edition and
+               Lexicon</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/66207154">
+                  <forename>Matija</forename>
+                  <surname>Ogrin</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/10709753">
+                  <forename>Tomaž</forename>
+                  <surname>Erjavec</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title> Early Modern Slovenian Manuscripts Between Description, Critical Edition
+                     and Lexicon</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/66207154">
+                        <forename>Matija</forename>
+                        <surname>Ogrin</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/10709753">
+                        <forename>Tomaž</forename>
+                        <surname>Erjavec</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">91-92</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the author.</desc>
+               </event>
+               <event when="2016-07-24" type="finalUpload">
+                  <desc>Submitted for publication by the author.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Scholarly editions</term><term>manuscripts</term><term>Baroque</term><term>Slovenian literature</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text and
+               footnotes.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Even though early modern periods of 17th and esp. 18th century are important for the
+            development of Slovenian literature, the manuscripts from these periods have only been
+            given a sketchy treatment or did not enter the account of scholarly evidence at all.
+            Recent research has proved, however, that many Slovenian Baroque manuscripts entail
+            superior literary, cultural or spiritual values, but have never been published in the
+            medium of printed books, because their authors continued – for several reasons – to rely
+            on the manuscript culture as the main medium of their textual oeuvre.</p>
+         <p>For this reason, new research initiatives have been undertaken for analysis,
+            transcription, and digital processing of these texts. During the last 15 years
+            (2001-2016), several TEI-conforming projects have been launched, which converged in
+            three main methodological approaches.</p>
+         <list type="ordered">
+            <item>The fundamental research is encompassed in the analysis of the manuscripts as
+               primary sources, expressed in structured <gi>msDesc</gi> elements and arranged
+               together online as the (beta version) Register of early modern Slovenian manuscripts
+                  <note type="footnote"><ref target="http://ezb.ijs.si/nrss/">http://ezb.ijs.si/nrss/</ref></note>.</item>
+            <item>Digital scholarly editions are an established route of text-critical study,
+               processing, and presentation of selected early Slovenian texts in the eZISS
+                  project<note type="footnote"><ref target="http://nl.ijs.si/e-zrc/index-en.html">http://nl.ijs.si/e-zrc/index-en.html</ref></note>, where one of the leading
+               principles is our strict differentiation and inclusion of both diplomatic and
+               critical editions of the text in question, which involves interesting issues of both
+               encoding and on-screen processing.</item>
+            <item>The third approach to the same text is still in progress: We try to find an
+               optimized workflow to generate, for each edition, a lexicon of the words and word
+               forms, extant in its text. Here, again, questions of diplomatic and critical word
+               forms complicate the matter a lot, and we can observe – and aim to address – a range
+               of normalizations, going to contemporary standard Slovene word forms and their
+               lemmatization with part-of-speech tagging, as was demonstrated in the IMP
+                  project<note type="footnote"><ref target="http://nl.ijs.si/imp/index-en.html">http://nl.ijs.si/imp/index-en.html</ref></note>. We are experimenting with
+               various machine learning methods for the normalizations, concentrating on
+               Character-based Statistical Machine Translation and Conditional Random Fields. The
+               specific aim of the development of these methods is to facilitate the lexicography
+               work, but could also prove useful in preparing new editions. During the preparation
+               of a new edition, the training dataset for the translator between the diplomatic and
+               critical words and sentences could be bootstrapped as the translation
+               progresses.</item>
+         </list>
+      </body>
+   </text>
+</TEI>

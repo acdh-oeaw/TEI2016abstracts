@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shakespeare's N-grams at 400: Comparing Content Themes With Four
+                     Contemporaries</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/73669237">
+                  <forename>Brian L.</forename>
+                  <surname>Pytlik Zillig</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Shakespeare's N-grams at 400: Comparing Content Themes With Four
+                     Contemporaries</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/73669237">
+                        <forename>Brian L.</forename>
+                        <surname>Pytlik Zillig</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">93-94</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the author.</desc>
+               </event>
+               <event when="2016-07-25" type="consent">
+                  <desc>Consent to publication by the author.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>text analysis</term><term>XSLT</term><term>n-grams</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange ordered="true">
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-01-19" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <p>TEI-encoded texts can serve easily as units of content for the purposes of text
+               analysis, and may be up-coded easily with part-of-speech (PoS) data. For the present
+               work, plays by Shakespeare and four of his contemporaries (James Shirley, Thomas
+               Middleton, Christopher Marlowe, and Ben Jonson) were processed with Northwestern
+               University’s MorphAdorner tool, developed by Philip Burns. XSLT, which is
+               sometimes misunderstood as merely a display or rendering tool, but is also an
+               excellent text analysis language, was employed to query all PoS-tagged data.
+               Moreover, XSLT easily supports the development of custom statistical functions such
+               as pooled standard deviation and Cohen’s d, functions helpful for comparing
+               standardized differences between the separate data sets of the various authors. </p>
+            <p>Experimental routines were then developed to examine speeches in each play for the
+               intersection of two sorts of phenomena:</p>
+            <list type="ordered"><item>parts of speech located at various locations within a word
+                  n-gram sequence of a given length, and </item><item>content themes as identified by
+               the Linguistic Inquiry and Word Count (LIWC) text analysis framework. LIWC includes
+               many content themes, but for this work, the author examined the following: Love,
+               motion, body, anger, death, murder, and happiness.</item></list>
+            <p>Once the XSLT query routines were developed, it became a fairly simple matter to ask
+               questions such as these:</p>
+            <p>Which author in the corpus wrote more 3-grams in which one of the words was a noun,
+               and on the theme of happiness, or religion, etc.?</p>
+            <p>How different is the occurrence of the religion theme in Shakespeare's 3-grams
+               compared to Jonson's 3-grams, or Marlowe's with Jonson's?</p>
+            <p>Which comparisons show the largest and smallest differences?</p>
+            <p>Texts used here mainly originated in the work of the Text Creation Partnership.
+               Martin Mueller offered additional WordHoard texts for this work.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenting Transmission: The Analysis of the Folk Process using Versioning Machine 5.0</title>
+            <author>
+               <persName>
+                  <forename>Roman</forename>
+                  <surname>Bleier</surname>
+               </persName>
+               <persName>
+                  <forename>Richard</forename>
+                  <surname>Breen</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Documenting Transmission: The Analysis of the Folk Process using Versioning Machine 5.0</title>
+                  <author>
+                     <persName>
+                        <forename>Roman</forename>
+                        <surname>Bleier</surname>
+                     </persName>
+                     <persName>
+                        <forename>Richard</forename>
+                        <surname>Breen</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">49-50</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-25" type="consent"><desc>Consent to publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Editing</term><term>music</term><term>lyrics</term><term>encoding</term><term>versioning</term><term>variants</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The Versioning Machine (VM) is a framework and an interface for displaying multiple
+            versions of a text encoded according to the Text Encoding Initiative (TEI) Guidelines.
+            The most recent release of VM contains a new text-audio linking feature, which has
+            originally been developed by members of the Modernist Versions Project and is now a
+            standard component of VM 5.0. The new text-audio feature facilitates parallel reading of
+            a version of a text and at the same time listening to an audio version. Our project
+            attempts to utilize and extend this new feature of VM 5.0 in order to allow the
+            comparison of different versions of a folk song and analyze the <q>folk process</q>.</p>
+         <p>The <q>folk process</q> describes the transmission and transformation of literary and
+            artistic material from person to person in both an oral and literary context. As the
+            stories, art, and musical traditions of a community are passed down from generation to
+            generation, they are subject to organic changes in form, context, narrative, and
+            performance. As song forms or tropes travel, they may adopt new musical characteristics,
+            while maintaining a core lyrical or thematic story. In a Digital Humanities context,
+            this raises the question of whether or not a tool like VM 5.0 can be used to document
+            and observe these changes in a way that extends our consideration of these processes.</p>
+         <p>Our paper will first introduce the new audio feature of VM 5.0. During his MA thesis,
+            Richard Breen encoded several versions of the folk song <q>The Unfortunate Rake</q>. Using
+            the VM, he has linked the lyrics to audio versions of the song, and subsequently was
+            able to observe lyrical comparisons and contrasts. Using this example, the paper will
+            examine the potential of using VM 5.0 to trace the folk process in action.</p>
+      </body>
+   </text>
+</TEI>

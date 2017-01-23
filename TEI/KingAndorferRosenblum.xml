@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Support for TEI editions in academic libraries. An upcoming study of the Library
+               Publishing Coalition</title>
+            <author>
+               <persName>
+                  <forename>Margaret</forename>
+                  <surname>King</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/251032539">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/220145541821096601211">
+                  <forename>Brian</forename>
+                  <surname>Rosenblum</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Support for TEI editions in academic libraries. An upcoming study of the
+                     Library Publishing Coalition</title>
+                  <author>
+                     <persName>
+                        <forename>Margaret</forename>
+                        <surname>King</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/251032539">
+                        <forename>Peter</forename>
+                        <surname>Andorfer</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/220145541821096601211">
+                        <forename>Brian</forename>
+                        <surname>Rosenblum</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">133-134</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-29" type="consent">
+                  <desc>Consent publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>poster</term>
+      </keywords>
+         <keywords><term>Editions</term><term>University Libraries</term><term>Library Publishing Coalition</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-23" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This poster will present the first outcomes of an ongoing study that aims to address the
+            extent to which digital scholarly editions (and in particular TEI encoded editions) are
+            supported within member libraries of the Library Publishing Coalition. The sample
+            includes more than 100 academic libraries, primarily in the United States as well as
+            some around the world. This organization aims to promote innovative publishing services
+            in these university libraries. Members therefore form a representative sample to address
+            this question.</p>
+         <p>Library-based publishing has become increasingly common among academic research
+            libraries, as the Library Publishing Directory demonstrates. However, there are not
+            clearly established organizational and service models for these publishing programs.
+            Furthermore, while many of them are focused on scholarly journals, it is unclear how
+            many of these programs are supporting the production and publication of digital
+            scholarly editions making use of the TEI schema, nor is it clear what kinds of resources
+            are required for them to support such efforts.</p>
+         <p>The survey first aims to determine how many of these academic libraries understand
+            digital scholarly editions to be those making use of the TEI schema and how many have
+            other conceptions. The next objective is to elicit what kinds of support these libraries
+            offer to digital editors including services, publication, preservation and access. Our
+            final aim is to identify the success factors that motivate or enable libraries to offer
+            support to editors and what the primary obstacles are which hinder support programs. The
+            poster will discuss the initial results and trends of this survey and will give
+            predictions about the findings and recommendations, addressing key issues affecting the
+            publication, sustainability and access of TEI encoded editions.</p>
+      </body>
+   </text>
+</TEI>

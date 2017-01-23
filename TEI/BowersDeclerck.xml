@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI and lemon: a comparative study on the lexical encoding and
+               interoperability</title>
+            <author>
+               <persName>
+                  <forename>Jack Thompson</forename>
+                  <surname>Bowers</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/306105656">
+                  <forename>Thierry</forename>
+                  <surname>Declerck</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>TEI and lemon: a comparative study on the lexical encoding and
+                     interoperability</title>
+                  <author>
+                     <persName>
+                        <forename>Jack Thompson</forename>
+                        <surname>Bowers</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/306105656">
+                        <forename>Thierry</forename>
+                        <surname>Declerck</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">53-54</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-12" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>TEI</term><term>lemon-ontolex</term><term>lexical encoding</term><term>interoperability</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text, footnotes and
+               bibliographic information, extension of bibliographic information.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>In this study, we examine questions pertaining to interoperability between the Text
+            Encoding Initiative (TEI) Guidelines for encoding dictionaries<note type="footnote"><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/de/html/DI.html">http://www.tei-c.org/release/doc/tei-p5-doc/de/html/DI.html</ref></note> and the
+            lexicon model for ontologies (lemon), which has been developed in the context of the W3C
+            OntologyLexica Community Group. The OntoLex Community Group Specification<note type="footnote"><ref target="http://www.w3.org/community/ontolex/wiki/Final_Model_Specification">http://www.w3.org/community/ontolex/wiki/Final_Model_Specification</ref></note>
+            contains a section dedicated to clarifying the systems relation to other models of
+            lexical encoding, which covers SKOS(-XL), LMF (Lexical Markup Framework), and the Open
+            Annotation standard but lacks a comparison with TEI. We think that such a comparison is
+            needed; also since issues of bringing the TEI into the world of Linked Open Data and
+            making use of ontologies have continued to gain interest within the TEI community. </p>
+         <p>In our study, we focus on both TEI and the different modules of lemon in aspects of
+            their technical data models, as well as their respective capacities to adequately
+            express certain linguistic features. For this purpose, we have encoded examples in both
+            systems from multiple sources, including historical and dialectal dictionaries, in which
+            we give particular focus on compounds and different types of variation in the lexical
+            entries. In identifying the non-compatible aspects of these systems, we seek to point
+            out and discuss some of the potential linguistic and technical benefits and potential
+            downsides of using each system for one’s lexical data, also taking into consideration
+            aspects related to the publication of lexicographic data in the Linked Data cloud. </p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Declerck</surname><forename>Thierry</forename></persName></author>
+                  <author><persName><surname>Mörth</surname><forename>Karlheinz</forename></persName></author>
+                  <title>Towards a Sense-based Access to Related Online Lexical Resources</title>
+               </analytic>
+               <monogr>
+                  <title>Proceedings of Euralex 2016</title>
+                  <imprint>
+                     <date>2016</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Schopper</surname><forename>Daniel</forename></persName></author>
+                  <author><persName><surname>Bowers</surname><forename>Jack</forename></persName></author>
+                  <author><persName><surname>Wandl-Vogt</surname><forename>Eveline</forename></persName></author>
+                  <title>dboe@TEI: remodeling a database of dialects into a rich LOD
+                     resource</title>
+               </analytic>
+               <monogr>
+                  <title>TEI conference 2015</title>
+                  <imprint>
+                     <pubPlace>Lyon, France</pubPlace>
+                     <date>2015</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

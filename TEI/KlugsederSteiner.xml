@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cantus Network — a semantically enriched digital edition of libri ordinarii of the Salzburg metropolitan province</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/5254585">
+                  <forename>Robert</forename>
+                  <surname>Klugseder</surname>
+               </persName>
+               <persName>
+                  <forename>Christian</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Cantus Network — a semantically enriched digital edition of libri ordinarii of the Salzburg metropolitan province</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/5254585">
+                        <forename>Robert</forename>
+                        <surname>Klugseder</surname>
+                     </persName>
+                     <persName>
+                        <forename>Christian</forename>
+                        <surname>Steiner</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">81-82</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-04-21" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-30" type="finalUpload"><desc>Submitted for publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>liturgics</term><term>musicology</term><term>semantic web</term><term>latex</term><term>critical edition</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text and bibliographic information, extension of bibliographic information.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This contribution will present a digital and semantically enriched edition of liturgical
+            ordinals, called libri ordinarii (LOi), of the metropolitan province of Salzburg.
+            Digital scholarly editions are still a rarely used method in musicology and especially
+            liturgics. Yet, the digital availability of the many surviving liturgical musical
+            sources, which form an essential part of Austria’s cultural heritage, is of great
+            importance.</p>
+         <p>The research project’s aim is to reconstruct and produce a synoptic study of the
+            emergence and development of the liturgy in the Salzburg metropolitan province, based on
+            the LOi in the region. A primary task was the transformation of the transcribed LOi from
+            docx into TEI. The styles available in Microsoft Word and special characters were used
+            in order to create markup in Word and were thus converted into TEI using the XSL
+            stylesheets provided by the TEI community. The final version of the TEI was accomplished
+            with a customized workflow in the OAIS-compliant Asset Management System GAMS (developed
+            by the Center for Information Modelling at the University of Graz) involving a Java
+            based routine.</p>
+         <p>The TEI is used as the primary database and thus semantic representations in RDF as well
+            as printed versions of the LOi as critical editions were produced directly from the TEI
+            representation. In order to output a traditional printed critical edition, LaTeX and its
+            package reledmac were used to transform the transcriptions into books. The variants had
+            to be collected in a TEI document using the elements of the Critical Apparatus.</p>
+         <p>Additional emphasis within the project lies on the use of Semantic Web technologies
+            (OWL, RDF), which will help to reveal interconnections between individual entities and
+            differences between the various liturgical traditions.</p>
+         <listBibl>
+            <head>References</head>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Klugseder</surname><forename>Robert</forename></persName></author>
+                  <title>Der mittelalterliche Liber ordinarius der Diözese Passau. Entstehungs- und
+                     Wirkungsgeschichte</title>
+               </analytic>
+               <monogr>
+                  <title>Studien zur Musikwissenschaft</title>
+                  <imprint>
+                     <biblScope unit="pp">11-43</biblScope>
+                     <date>2013</date>
+                  </imprint>
+               </monogr>
+               <series><title>Beihefte der Denkmäler der Tonkunst in Österreich</title><biblScope unit="vol">57</biblScope></series>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Praßl</surname><forename>Franz
+                        Karl</forename></persName></author>
+                  <title>Zur Geschichte und Inhalt des ältesten Salzburger Liber Ordinarius (Codex M
+                     II 6 der Universitätsbibliothek Salzburg)</title>
+               </analytic>
+               <monogr>
+                  <editor><persName><surname>Dobszay</surname><forename>Laszlo</forename></persName></editor>
+                  <title>Cantus Planus Papers Read at the 7th Meeting Sopron Hungary 1995</title>
+                  <imprint>
+                     <pubPlace>Budapest</pubPlace>
+                     <biblScope unit="pp">463-472</biblScope>
+                     <date>1998</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <monogr>
+                  <author><persName><surname>Rouquette</surname><forename>Maïeul</forename></persName></author>
+                  <title>reledmac. Typeset scholarly editions with LaTex</title>
+                  <imprint>
+                     <date>2016</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://xml.web.cern.ch/XML/TLLATEST/texmf-dist/doc/latex/reledmac/reledmac.pdf">https://xml.web.cern.ch/XML/TLLATEST/texmf-dist/doc/latex/reledmac/reledmac.pdf</ref>
+            </biblStruct>
+            <biblStruct>
+               <monogr>
+                  <author><persName><surname>Stigler</surname><forename>Johannes</forename></persName></author>
+                  <author><persName><surname>Steiner</surname><forename>Elisabeth</forename></persName></author>
+                  <title>GAMS and Cirilo Client. Policies, documentation and tutorial</title>
+                  <imprint>
+                     <date>2014-2016</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://gams.uni-graz.at/doku">http://gams.uni-graz.at/doku</ref>
+            </biblStruct>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

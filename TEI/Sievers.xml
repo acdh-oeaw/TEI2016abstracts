@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> T³ Typesetting TEI Using TeX. A Plea for High-quality Typesetting in the
+                  Humanities<note type="footnote">This submission is dedicated to Sebastian Rahtz,
+                  who contributed very important ideas to TeX and the TEI and started to connect
+                  both worlds very early.</note></title>
+            <author>
+               <persName ref="http://viaf.org/viaf/47401803">
+                  <forename>Martin</forename>
+                  <surname>Sievers</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title> T³ Typesetting TEI Using TeX. A Plea for High-quality Typesetting in the
+                     Humanities&gt;</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/47401803">
+                        <forename>Martin</forename>
+                        <surname>Sievers</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">103-105</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-31" type="submission">
+                  <desc>Submitted for review by the author.</desc>
+               </event>
+               <event when="2016-07-20" type="finalUpload">
+                  <desc>Submitted for publication by the author.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Typesetting</term><term>Publishing</term><term>Critical editions</term><term>TeX</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text, footnotes and
+               bibliographic information, extension of bibliographic information.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Nowadays, a large and increasing number of editions are <q>born-digital</q>,
+            i.e. they are a result of applying IT standards, techniques, and software at (almost)
+            all research stages. XML and the TEI in particular (both organization and standard)
+            paved the way for many academic software tools using XML as an exchange and output
+            format.</p>
+         <p>However, there are still a significant number of projects, which have to step back into
+            the <q>old world</q> when the richly annotated data are supposed to be published
+            as a printed book (Figure 1).</p>
+            <figure>
+               <head>Figure 1: Typesetting XML data for a printed publication. XSLT can be used to
+                  transform XML into an appropriate intermediate format. This is then turned into a
+                  PDF with the help of a typesetting engine.</head>
+               <graphic url="imgs/figure1.png"/>
+            </figure>
+         <p>Why that? Having a closer look at the latest generation of typesetting engines – both
+            open-source and commercial, it becomes quite obvious, that the requirements of
+            scientific typesetting have not been taken into account to the needed extent. The main
+            reason is that the <q>X-technologies</q><note type="footnote">The X-technologies
+               subsume W3C standards, namely XML, XSL and XPath as well as additional related
+               languages and formats like XQuery or XLink depending on the context.</note> are
+            primarily industry-driven and therefore corresponding software consequently meets only
+            the requirements of a specific – admittedly large – non-academic target group. Those
+            requirements motivated from a rather academic perspective, however, regularly get much
+            too little attention.</p>
+         <p>As a consequence, modern virtual research environments like FuD<note type="footnote"><ptr target="#fud"/></note> or ediarum<note type="footnote"><ptr target="#ediarum"/></note> started to integrate established non-XML-based
+            open-source typesetting tools like TeX to provide a formatted version for proofreading
+            or even a camera-ready copy for a printed publication. There is even a long-standing
+            direct connection between the TEI format and TeX, namely teitolatex, a XSL stylesheet to
+            convert TEI documents into LATeX equivalents. Unfortunately, the XSL stylesheets<note type="footnote">Cf. <ref target="https://github.com/TEIC/Stylesheets">f.
+                  https://github.com/TEIC/Stylesheets</ref></note> don’t seem to be very well-known
+            among researchers.</p>
+         <p>In my talk, I will demonstrate why the <q>dinosaur</q> TeX is still needed in a
+            modern XML world and how the community can benefit from more than 30 years of scientific
+            typesetting experience.</p>
+         <listBibl>
+            <head>References</head>
+            <bibl xml:id="fud"><title>FuD – A Virtual Research Environment for the
+                  Humanities</title>. <ref target="http://fud.uni-trier.de/de/">http://fud.uni-trier.de/de/</ref></bibl>
+            <bibl xml:id="ediarum"><title>ediarum – an easy tool for editing manuscripts with TEI
+                  XML</title>. <ref target="http://www.bbaw.de/en/telota/software/ediarum">http://www.bbaw.de/en/telota/software/ediarum</ref></bibl>
+            <bibl><title>Apache(tm) FOP – a print formatter driven by XSL formatting objects
+                  (XSL-FO) and an output independent formatter</title>. <ref target="http://xmlgraphics.apache.org/fop/">http://xmlgraphics.apache.org/fop/</ref></bibl>
+            <bibl>LATeX – A document preparation system. <ref>http://www.latex-project.org/
+               </ref>[2016-07-20]. </bibl>
+            <bibl><title>XML-Print: typesetting arbitrary XML documents in high quality</title>.
+                  <ref target="https://sourceforge.net/projects/xml-printfiles/">https://sourceforge.net/projects/xml-printfiles/</ref></bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI markup for the 90-volume edition of Leo Tolstoy’s complete works</title>
+            <author>
+               <persName>
+                  <forename>Daniil</forename>
+                  <surname>Skorinkin</surname>
+               </persName>
+               <persName>
+                  <forename>Evgeny</forename>
+                  <surname>Mozhaev</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>TEI markup for the 90-volume edition of Leo Tolstoy’s complete
+                     works</title>
+                  <author>
+                     <persName>
+                        <forename>Daniil</forename>
+                        <surname>Skorinkin</surname>
+                     </persName>
+                     <persName>
+                        <forename>Evgeny</forename>
+                        <surname>Mozhaev</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">107-108</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-24" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>literary studies</term><term>critical editions</term><term>Russian literature</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>In this paper, we describe our work on an ongoing project titled <q>Tolstoy Digital</q>. Our
+            chief objective is to convert the 90-volume collected works of Leo Tolstoy into a proper
+            <q>digital edition</q> with help of TEI.</p>
+         <p>With a legacy of more than 46,000 pages of text that collectively contain 14,5 million
+            words, Tolstoy is famed as one of the most productive writers ever. The preparation of
+            the 90-volume print edition started in 1928 (Tolstoy’s 100th anniversary) and took three
+            decades, with the last volume published in 1958. Apart from finished works (prose,
+            poetry, drama, essays; schoolbooks), the edition contains numerous drafts, about 8,500
+            letters, entire volumes of personal diaries, which Tolstoy diligently kept throughout
+            his life, a certain number of facsimile manuscripts and all sorts of editorial comments.
+            A separate volume (No. 91) is entirely dedicated to alphabetic and chronological
+            indexes.</p>
+         <p>The volumes have been digitized a few years ago, but so far contain little electronic
+            markup. The size and diversity of the edition, along with inevitable inconsistencies in
+            editorial practices, present all sorts of challenges to markup attempts.</p>
+         <p>One of such challenges are footnotes, of which there are more than 30,000. Among them
+            Tolstoy’s own comments, explanations and translations, comments and translations by
+            editors, plus all sorts of technical notes. The latter usually represent various
+            editorial <q>secondary evidence</q>, e.g. <q>here Tolstoy wrote word ‘A’ first, but then
+            replaced it with an unclear word which is probably word ‘B’</q> or <q>this phrase was crossed
+            out with a dry pen, most likely by Tolstoy’s wife</q> or <q>original page contained this
+            addition on the margin</q>.</p>
+         <p>Obviously, all these footnotes should somehow be distinguished from each other in the
+            TEI markup. As the sheer size of the material suggests some automation is inevitable,
+            currently our efforts are focused on automatic (or at least machine-aided)
+            classification of notes and their subsequent conversion into TEI tags.</p>
+      </body>
+   </text>
+</TEI>

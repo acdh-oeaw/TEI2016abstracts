@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>eXistdb: more than a database</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/307490314">
+                  <forename>Magdalena</forename>
+                  <surname>Turska</surname>
+               </persName>
+               <persName>
+                  <forename>Lars</forename>
+                  <surname>Windauer</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2016-11-08">8 November 2016</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>eXistdb: more than a database</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/307490314">
+                        <forename>Magdalena</forename>
+                        <surname>Turska</surname>
+                     </persName>
+                     <persName>
+                        <forename>Lars</forename>
+                        <surname>Windauer</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">185-186</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-07-25" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-08-11" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass>
+         <keywords>
+            <term>workshop</term>
+         </keywords>
+         <keywords><term>existdb</term><term>tei publishing</term><term>TEI-Simple</term><term>TEI-Processing Model</term></keywords>
+      </textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2017-01-05" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Day 1: Crash course in eXistdb basics for TEI data</head>
+            <head>Day 2: X‐wiZZardry: application building with eXistdb</head>
+         <p>A significant portion of humanities research data is marked up and stored as XML
+            documents. In order to provide standard interactive features for digital research
+            resources such as full text search possibilities, it is obvious to use a database which
+            is optimized for the handling of XML documents. eXistdb is one of the leading native XML
+            databases currently available. This open source solution is becoming a technology of
+            choice in Digital Humanities, especially when it comes to storing, querying and
+            publishing large corpora of XML marked-up texts. eXistdb though is much more than just a
+            database: It is also an application platform, web server and even a document creation
+            platform. eXistdb is also currently the only out‐of‐the‐box implementation of the TEI
+            Processing Model. Thus, it is extremely well suited to be a database, rapid application
+            development and publishing solution of choice for large, established collaborative
+            projects and individual researchers alike.</p>
+         <p>This tutorial aims for a mix of talks and hands‐on practical sessions. It will be
+            divided in two parts, lasting a day each, which can be taken independently. Part one
+            will provide a basic introduction to eXistdb and follow on to querying data collections
+            with XPath, to conclude with publishing TEI documents with the TEI Processing Model.</p>
+         <p>Part two will move beyond out‐of‐the‐box solutions and will discuss XQuery, a language
+            which is used to query, extract, and manipulate XML documents as well as build
+            applications for eXistdb. We will also introduce the principles of eXistdb indexing and
+            profiling features. As a source of inspiration and a panorama of applications that could
+            benefit from relying on eXistdb as its core technology, we will also showcase a few
+            research projects using eXistdb.</p>
+         <p>As eXistdb is fully based upon Open Standards and Open Source, it is a future‐proof and
+            sustainable choice for research projects. Since its inception in 2001, eXistdb
+            development has always been driven by the needs of a large user community. We believe
+            that the TEI conference is a good opportunity for scholars to meet eXistdb contributors
+            and practitioners, and to exchange ideas how the Digital Humanities community could both
+            engage and benefit further from eXistdb development.</p>
+         <p>The introduction to the features of eXistdb during the workshop will give participants a
+            starting point for their own eXistdb‐based project as well as help them narrow their
+            choices when it comes to selecting database technology suitable for their research.</p>
+      </body>
+   </text>
+</TEI>

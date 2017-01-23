@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wake up, standOff!</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/162800591">
+                  <forename>Piotr</forename>
+                  <surname>Bański</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/47146029530335821464">
+                  <forename>Bertrand</forename>
+                  <surname>Gaiffe</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/285739999">
+                  <forename>Patrice</forename>
+                  <surname>Lopez</surname>
+               </persName>
+               <persName>
+                  <forename>Simon</forename>
+                  <surname>Meoni</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/282014122">
+                  <forename>Laurent</forename>
+                  <surname>Romary</surname>
+               </persName>
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Schmidt</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/160626279">
+                  <forename>Peter</forename>
+                  <surname>Stadler</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/171746082">
+                  <forename>Andreas</forename>
+                  <surname>Witt</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Wake up, standOff!</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/162800591">
+                        <forename>Piotr</forename>
+                        <surname>Bański</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/47146029530335821464">
+                        <forename>Bertrand</forename>
+                        <surname>Gaiffe</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/285739999">
+                        <forename>Patrice</forename>
+                        <surname>Lopez</surname>
+                     </persName>
+                     <persName>
+                        <forename>Simon</forename>
+                        <surname>Meoni</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/282014122">
+                        <forename>Laurent</forename>
+                        <surname>Romary</surname>
+                     </persName>
+                     <persName>
+                        <forename>Thomas</forename>
+                        <surname>Schmidt</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/160626279">
+                        <forename>Peter</forename>
+                        <surname>Stadler</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/171746082">
+                        <forename>Andreas</forename>
+                        <surname>Witt</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title><idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">35-37</biblScope>
+               </monogr>
+               
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-11" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-05-13" type="newVersion"><desc>A new version was submitted for review by the authors.</desc></event>
+               <event when="2016-07-19" type="finalUpload"><desc>Submitted for publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>stand-off</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-09" who="#vany">TEIHeader edited, encoding of footnotes and bibliographic information, extension of bibliographic information.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The paper will provide an overview of and an update on the ongoing proposal to create a
+               <gi>standOff</gi> component within the TEI architecture. It will elicit the
+            conceptual background of having stand-off annotations embedded within a TEI document and
+            the consequences in terms of primary source preservation, multiple annotation views and
+            possible exporting of annotation content into autonomous TEI documents. It will
+            demonstrate the various types of possible use cases ranging from manual annotation to
+            fully automatized information extraction processes and show the importance of
+            implementing, right from the onset, the possibility to use any kind of internal or
+            external vocabulary for representing annotation bodies (e.g. to deal with structural or
+            conceptual annotations). An important prospect here is that the <gi>standOff</gi>
+            construct could lead to a simplified development of TEI-aware online services such as
+            Named Entity Recognizers.</p>
+         <p>We will relate to ongoing initiatives and show the necessity to align with the Web
+            Annotation Data Model (W3C) as well as with the recent introduction of the
+               <gi>annotationBlock</gi> element for speech transcription (as part of the work
+            carried out in the ISO standard 24624) as an elementary annotation crystal in the sense
+            of Romary and Wegstein<note type="footnote"><ptr target="#romarywegstein"/></note>. In this context, we will tackle the issue
+            of implicitness in the representation of annotations and open the debate related to the
+            trade-off between having a terse vs. highly flexible model.</p>
+         <p>We will end up by illustrating the application that is already made of the current
+            proposal in various projects related to data mining or scientific information, and in
+            particular to the representation of annotated scholarly content.</p>
+         <div>
+            <head>Further material</head>
+            <biblStruct>
+               <analytic>
+                  <title>Minutes of the January 2014 meeting</title>
+               </analytic>
+               <monogr>
+                  <title>polytechnic</title>
+                  <imprint>
+                     <date>2014</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://download2.polytechnic.edu.na/pub7/sourceforge/l/li/lingsig/Documents/Standoff%20in%20Berlin,%2001.2014/standoff-minutesBerlin2014.pdf">http://download2.polytechnic.edu.na/pub7/sourceforge/l/li/lingsig/Documents/Standoff%20in%20Berlin,%2001.2014/standoff-minutesBerlin2014.pdf</ref>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <title>The TEI GitHub ticket</title>
+               </analytic>
+               <monogr>
+                  <title>GitHub</title>
+                  <imprint>
+                     <date>2012</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://github.com/TEIC/TEI/issues/374">https://github.com/TEIC/TEI/issues/374</ref>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <title>The standOff proposal on GitHub</title>
+               </analytic>
+               <monogr>
+                  <title>GitHub</title>
+                  <imprint>
+                     <date>2016</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://github.com/laurentromary/stdfSpec">https://github.com/laurentromary/stdfSpec</ref>
+            </biblStruct>
+         </div>
+         <div><listBibl>
+            <head>References</head>
+            <biblStruct>
+               <analytic>
+                  <author>
+                     <forename>Piotr</forename>
+                     <surname>Bański</surname>
+                  </author>
+                  <title>Why TEI standoff annotation doesn’t quite work: and why you might want to
+                     use it nevertheless</title>
+               </analytic>
+               <monogr>
+                  <title>Proceedings of Balisage: The Markup Conference 2010. Balisage Series on
+                     Markup Technologies</title>
+                  <imprint>
+                     <date>2010</date>
+                     <biblScope unit="vol">5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <title>ISO/DIS 24624: Language resource management -- Transcription of spoken
+                     language</title>
+               </analytic>
+               <monogr>
+                  <title>ISO</title>
+                  <imprint>
+                     <date>2016</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=37338">http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=37338</ref>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Pose</surname><forename>Javier</forename></persName></author>
+                  <author><persName><surname>Lopez</surname><forename>Patrice</forename></persName></author>
+                  <author><persName><surname>Romary</surname><forename>Laurent</forename></persName></author>
+                  <title>A Generic Formalism for Encoding Stand-off annotations in TEI</title>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <date>2014</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://hal.inria.fr/hal-01061548">https://hal.inria.fr/hal-01061548</ref>
+            </biblStruct>
+            <biblStruct>
+               <analytic>
+                  <author><persName><surname>Romary</surname><forename>Laurent</forename></persName></author>
+                  <title>TEI challenges in an accelerating digital world</title>
+               </analytic>
+               <monogr>
+                  <title>DiXiT Convention week, September 2015. The Hague, Netherlands</title>
+                  <imprint>
+                     <date>September 2015</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://hal.inria.fr/hal-01254365">https://hal.inria.fr/hal-01254365</ref>
+            </biblStruct>
+            <biblStruct xml:id="romarywegstein">
+               <analytic>
+                  <author><persName><surname>Romary</surname><forename>Laurent</forename></persName></author>
+                  <author><persName><surname>Wegstein</surname><forename>Werner</forename></persName></author>
+                  <title>Consistent Modeling of Heterogeneous Lexical Structures</title>
+               </analytic>
+               <monogr>
+                  <title>Journal of the Text Encoding Initiative</title>
+                  <idno type="DOI">10.4000/jtei.540</idno>
+                  <imprint>
+                     <biblScope unit="issue">3.</biblScope>
+                     <date>2012</date>
+                  </imprint>
+               </monogr>
+               <ref target="http://jtei.revues.org/540">http://jtei.revues.org/540</ref>
+            </biblStruct>
+            <bibl>
+                  <author>W3C</author>
+                  <title>Web Annotation Data Model</title>
+               <ref target="https://www.w3.org/TR/annotation-model/">https://www.w3.org/TR/annotation-model/</ref>
+            </bibl>
+         </listBibl></div>
+      </body>
+   </text>
+</TEI>

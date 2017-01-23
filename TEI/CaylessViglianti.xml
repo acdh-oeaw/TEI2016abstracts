@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CETEIcean, a JavaScript library for isomorphic TEI to HTML transformation</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/78316782">
+                  <forename>Hugh</forename>
+                  <surname>Cayless</surname>
+               </persName>
+               <persName>
+                  <forename>Raffaele</forename>
+                  <surname>Viglianti</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>CETEIcean, a JavaScript library for isomorphic TEI to HTML
+                     transformation</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/78316782">
+                        <forename>Hugh</forename>
+                        <surname>Cayless</surname>
+                     </persName>
+                     <persName>
+                        <forename>Raffaele</forename>
+                        <surname>Viglianti</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">163-164</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-29" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>demonstration</term>
+      </keywords>
+         <keywords><term>TEI Publishing</term><term>JavaScript</term><term>HTML5</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-12-19" who="#vany">TEIHeader edited, encoding of text and
+               footnotes.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This demonstration will introduce CETEIcean, a JavaScript library for displaying TEI in
+            a web browser. Instead of sticking with the semantically poor element set of HTML,
+            CETEIcean reframes an isomorphic transformation of TEI as HTML, by registering modified
+            TEI elements with the browser using the new Custom Elements technology<note type="footnote"><ref target="https://w3c.github.io/webcomponents/spec/custom/">https://w3c.github.io/webcomponents/spec/custom/</ref></note>. This is a new
+            feature that does not yet work in all browsers, but CETEIcean supports older browsers
+            too.</p>
+         <p>Typical TEI workflows first mark up text and then transform it into a variety of formats
+            for digital publication, which is particularly useful where multiple outputs are
+            desired. Converting TEI to HTML is the most common and most practical way of publishing
+            TEI texts on the web, but HTML lacks what TEI has: a very well-considered and mature set
+            of semantic tags for encoding texts. When converting TEI to HTML, the semantic
+            distinctions in the markup are often lost in favor of typographic distinctions in the
+            display. In other words, the data model represented in the TEI fails to carry over to
+            the online version.</p>
+         <p>The solution is to preserve the semantics of the TEI source. Various ways of doing this
+            have been proposed. These include the imposition of TEI semantics onto HTML elements
+            using RDFa or microformat, and (more practically) the use of an in-browser XSLT
+            transformation to wrap the TEI document in an HTML envelope and make it able to be
+            styled with CSS and JavaScript<note type="footnote">See TEI Boilerplate. <ref target="http://dcl.ils.indiana.edu/teibp/">http://dcl.ils.indiana.edu/teibp/</ref></note>. CETEIcean’s approach is inspired by Boilerplate, but it
+            is based on web standards and is more flexible. It does not require an in-browser XSLT
+            step, nor any modification to the source XML; TEI content can be loaded in the browser
+            via an AJAX call, or via server-side processing. A Boilerplate-style XSLT transform
+            directive could be used too.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wiki2TEI: Wikipedias as sources for language research</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/311166103">
+                  <forename>Karlheinz</forename>
+                  <surname>Mörth</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/249676043">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt><resp>Encoded by </resp><persName ref="http://viaf.org/viaf/31146030596135862230">
+               <forename>Vanessa</forename>
+               <surname>Hannesschläger</surname> and  
+            </persName></respStmt><respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Wiki2TEI: Wikipedias as sources for language research</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/311166103">
+                        <forename>Karlheinz</forename>
+                        <surname>Mörth</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/249676043">
+                        <forename>Daniel</forename>
+                        <surname>Schopper</surname>
+                     </persName>
+                  </author></analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt><resp>Layout and Graphic Design </resp><persName><forename>Sandra</forename> <surname>Lehecka</surname></persName></respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint><publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint><biblScope unit="page">87-88</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-13" type="submission"><desc>Submitted for review by the authors.</desc></event>
+               <event when="2016-07-27" type="consent"><desc>Consent to publication by the authors.</desc></event></listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation><p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p></editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>wiki language</term><term>NLP</term><term>corpus creation</term><term>tools and workflows</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange><change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI P5).</change>
+            <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text.</change><change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Wikipedia has become a synonym for encyclopedic knowledge to a broad public; Wikipedias
+            are more and more being used for a wide range of applications, among others as source
+            material for research projects. For many languages of the world, the respective
+            Wikipedia is the only freely available digital language resource. </p>
+         <p>To author Wikipedias, a so-called lightweight markup language, Wiki markup, is used
+            which has a simple syntax, which is supposed to ease editing of web-content to be
+            directly translated into HTML. Unfortunately, Wiki markup has a serious drawback: The
+            lack of consistency in its application, which is mainly due to the fact that it is
+            applied manually without the help of programs checking the digital text’s structural
+            integrity (wellformedness) and / or logical consistency (validity). While in the past
+            processing of digital texts often proceeded from plain text, XML technologies have
+            become quite pervasive in many applications. Well-formed XML can be processed in many
+            ways and ensures a higher degree of interoperability. </p>
+         <p>We have seen many projects aiming to convert Wikipedias into other formats. The probably
+            best-known one is DBpedia, the machine-readable extract of Wikipedias’ structured
+            portions, which is a cornerstone of knowledge modeling in the Semantic Web. The goal of
+            our project was to put together a workflow that would allow us to transform the texts
+            contained in Wikipedias into a format that would allow us to use our corpus creation and
+            processing tools: Tokenizer, tagger, indexer, and digital reading environment. As all
+            workflow steps in our environment have been geared towards TEI, we worked on routines to
+            convert Wikipedias into this more expressive, more reusable format. </p>
+         <p>Our paper will discuss existing tools to perform this task, our own approach in
+            converting Wiki markup into TEI, and it will give examples of how this data can be used
+            for research.</p>
+      </body>
+   </text>
+</TEI>

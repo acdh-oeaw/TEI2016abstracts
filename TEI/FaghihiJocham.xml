@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Islamic Manuscripts in Cambridge Digital Library &amp; the German-French virtual library project Paleocoran</title>
+            <author>
+               <persName>
+                  <forename>Yasmin</forename>
+                  <surname>Faghihi</surname>
+               </persName>
+            </author>
+            <author>
+               <persName>
+                  <forename>Tobias J.</forename>
+                  <surname>Jocham</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Islamic Manuscripts in Cambridge Digital Library &amp; the German-French virtual library project Paleocoran</title>
+                  <author>
+                     <persName>
+                        <forename>Yasmin</forename>
+                        <surname>Faghihi</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName>
+                        <forename>Tobias J.</forename>
+                        <surname>Jocham</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                     <forename>Claudia</forename>
+                     <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+               <idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">71-72</biblScope>
+               </monogr>
+            </biblStruct>
+            <listEvent>
+               <event when="2016-05-15" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-07-24" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>paper</term>
+      </keywords>
+         <keywords><term>Islamic manuscript descriptions</term><term>transcription</term><term>Arabic Palaeography</term><term>Islamic codicology</term><term>Qur'an</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange ordered="true">
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-01-19" who="#vany">TEIHeader edited, encoding of text and
+               references.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <p>European libraries have been actively collecting manuscripts from the Islamic world
+               since the 16th Century. Until recently, the only way of discovering these collections
+               was through inconsistently produced printed catalogues. In 2009, Cambridge (Ul) and
+               Oxford (Bodly) embarked on a joint project to create an online catalogue of Islamic
+               Manuscripts and a structured approach to Islamic manuscript descriptions using TEI.
+               The focus was on creating a standard practice for TEI description of Islamic
+               manuscripts to promote interoperability of data. The result was a union catalogue of
+               Oxford's and Cambridge's holdings, which now includes twelve further
+               institutions (FIHRIST). Content (TEI files) and methodology (schema, practice) were
+               reused and expanded in Cambridge Digital Library, fostering collaborations with
+               external projects. In this paper, I will talk about the challenges and rewards of
+               using TEI for Islamic Manuscript description and about our work in creating a
+               <q>TEI-community</q> within the field.</p>
+            <p>PALEOCORAN aims at bridging the gap between</p>
+            <list type="ordered"><item>the general history of the Qurʾān as known through Arabic
+                  sources and latest paleographic research on the manuscripts and </item><item>the
+               actual reception of various aspects of the text as documented in the library of the
+               ʿAmr mosque in al-Fusṭāṭ.</item></list>
+            <p>The fragmentary state of early Qurʾānic manuscripts, scattered between various
+               collections, has prevented many attempts at examining thoroughly all manuscript
+               evidence. The digital reconstruction of the Fusṭāṭ collection includes fragments from
+               all over the world, most however being kept in Gotha, Saint Petersburg, and Paris
+               (approx. 11,000 fol.) and unites them in a virtual online library.</p>
+            <p>Besides a unified cataloguing of its approx. 360 fragments, an important part of the
+               project is focusing on the development of the Arabic script (paleography, letter
+               shapes, diacritical signs, vowel system) and the process of canonization of the
+               Qurʾān within this collection. Thus, the manuscripts will be approached in a
+               multidisciplinary way, combining philology, paleography, codicology, art history, and
+               physico-chemical analyses (ink analysis and 14C). Whilst some of this data can easily
+               be gathered and analyzed with common data models, the encoding of variant readings
+               applied to a certain Arabic word within a manuscript requires more complicated
+               considerations on the design of the XMLschema. Furthermore, a convenient way for
+               entering and editing this data, i.e. Arabic words with multiple markups on single
+               vowel points, by the researchers is needed and has not yet been applied to a
+               similarly huge collection.</p>
+         <listBibl>
+            <head>References</head>
+            <bibl><title>Cambridge Digital Library. Mingana-Lewis Palimpsest</title>.
+               <ref target="http://cudl.lib.cam.ac.uk/collections/minganalewis">http://cudl.lib.cam.ac.uk/collections/minganalewis</ref>.</bibl>
+            <bibl><title>Cambridge University Library Special Collections</title>.
+               <ref target="https://specialcollections.blog.lib.cam.ac.uk/?p=12005">https://specialcollections.blog.lib.cam.ac.uk/?p=12005</ref>.</bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

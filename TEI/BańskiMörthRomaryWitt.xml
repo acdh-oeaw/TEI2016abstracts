@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lexical information in the TEI: modeling and markup</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/295251101">
+                  <forename>Piotr</forename>
+                  <surname>Bański</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/311166103">
+                  <forename>Karlheinz</forename>
+                  <surname>Mörth</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/282014122">
+                  <forename>Laurent</forename>
+                  <surname>Romary</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/36375219">
+                  <forename>Andreas</forename>
+                  <surname>Witt</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/52846347">
+                  <forename>Claudia</forename>
+                  <surname>Resch</surname></persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://viaf.org/viaf/70107717">
+                  <forename>Tanja</forename>
+                  <surname>Wissik</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/31146030596135862230">
+                  <forename>Vanessa</forename>
+                  <surname>Hannesschläger</surname> and </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by </resp>
+               <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+               Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2017-01-23">23 January 2017</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The license was added for the print version of this text on August 2, 2016.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Lexical information in the TEI: modeling and markup</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/295251101">
+                        <forename>Piotr</forename>
+                        <surname>Bański</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/311166103">
+                        <forename>Karlheinz</forename>
+                        <surname>Mörth</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/282014122">
+                        <forename>Laurent</forename>
+                        <surname>Romary</surname>
+                     </persName>
+                     <persName ref="http://viaf.org/viaf/36375219">
+                        <forename>Andreas</forename>
+                        <surname>Witt</surname>
+                     </persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <editor><persName ref="http://viaf.org/viaf/52846347">
+                        <forename>Claudia</forename>
+                        <surname>Resch</surname></persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf/70107717">
+                        <forename>Tanja</forename>
+                        <surname>Wissik</surname>
+                     </persName></editor>
+                  <respStmt>
+                     <resp>Layout and Graphic Design </resp>
+                     <persName><forename>Sandra</forename>
+                        <surname>Lehecka</surname></persName>
+                  </respStmt>
+                  <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title><idno type="ISBN">978-3-200-04689-4</idno>
+                  <imprint>
+                     <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</publisher>
+                     <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                     <date when="2016-09-20">September 2016</date>
+                  </imprint>
+                  <biblScope unit="page">175</biblScope>
+               </monogr>
+               
+            </biblStruct>
+            <listEvent>
+               <event when="2016-08-02" type="submission">
+                  <desc>Submitted for review by the authors.</desc>
+               </event>
+               <event when="2016-08-02" type="finalUpload">
+                  <desc>Submitted for publication by the authors.</desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation><p>The <gi>q</gi> element was used to represent all quotationmarks.</p></quotation>
+            <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc><textClass><keywords>
+         <term>workshop</term>
+      </keywords>
+         <keywords><term>linguistics</term><term>lexical information modelling</term></keywords></textClass></profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2016-11-04" who="#dani">Converted from InDesign (XML export to TEI
+               P5).</change>
+            <change when="2016-12-19" who="#vany">TEIHeader edited, encoding of text.</change>
+         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Quite a while has passed since the rewrite of the chapter on Dictionaries in the TEI
+            Guidelines, and many projects have since then adopted the new proposals. They have also
+            generated some new discussion (e.g. in the case of the generalized usage of <gi>cit</gi>
+            and <gi>quote</gi>) and are still in the process of getting refined (with the
+            grammatical information section recently having become more compact). Requests for new
+            features and improvement are continually processed by the TEI Council and discussed by
+            the community in the GitHub tickets.</p>
+         <p>In the meantime, Subcommittee 4 of the ISO Technical Committee 37 has published its
+            recommendations for the encoding of lexical databases (ISO LMF), accompanied by a
+            serialization that hasn’t become widespread in the field. The Subcommittee is in the
+            process of revising the LMF, with an eye to both improvements in the model and to its
+            TEI serialization, which, subject to the TEI Council’s approval, might potentially yield
+            a new version of the <q>Dictionaries</q> chapter.</p>
+         <p>The workshop, organized as an extension of the Linguistics SIG meeting, will report on
+            the history of lexical description in the TEI, the current state of the art, and the
+            envisioned developments. An essential projected part of the workshop will be a
+            discussion of the currently hottest topics (among others, the emerging serialization of
+            ISO LMF in the TEI, its envisioned coverage, feature set, and the timeline / milestones
+            for the expert / developer group).</p>
+      </body>
+   </text>
+</TEI>
