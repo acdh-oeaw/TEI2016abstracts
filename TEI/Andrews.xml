@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Freeing our Texts from their (Digital Tool) chains</title>
+                <author>
+                    <persName ref="http://viaf.org/viaf/138797001" key="http://viaf.org/viaf/138797001">
+                        <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Tara Lee</forename>
+                        <surname>Andrews</surname></persName>
+                </author>
+                <editor>
+                    <persName ref="http://viaf.org/viaf/52846347">
+                        <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Claudia</forename>
+                        <surname>Resch</surname>
+                    </persName>
+                </editor>
+                <editor>
+                    <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </editor>
+                <editor>
+                    <persName ref="http://viaf.org/viaf/70107717">
+                        <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Tanja</forename>
+                        <surname>Wissik</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <resp>Encoded by </resp>
+                    <persName ref="http://viaf.org/viaf/31146030596135862230">
+                        <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Vanessa</forename>
+                        <surname>Hannesschläger</surname> and </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by </resp>
+                    <persName ref="http://viaf.org/viaf/249676043" xml:id="dani">
+                        <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="male">Daniel</forename>
+                        <surname>Schopper</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                    Sciences</publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2017-03-07">7 March 2017</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2016-08-02">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                            to this text.</p>
+                        <p>The license was added for the print version of this text on August 2, 2016.</p>
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title>Freeing our Texts from their (Digital Tool) chains</title>
+                        <author>
+                            <persName ref="http://viaf.org/viaf/138797001" key="http://viaf.org/viaf/138797001">
+                                <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Tara Lee</forename>
+                                <surname>Andrews</surname></persName>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <editor>
+                            <persName ref="http://viaf.org/viaf/52846347">
+                                <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Claudia</forename>
+                                <surname>Resch</surname>
+                            </persName>
+                        </editor>
+                        <editor>
+                            <persName ref="http://viaf.org/viaf/31146030596135862230" xml:id="vany">
+                                <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Vanessa</forename>
+                                <surname>Hannesschläger</surname>
+                            </persName>
+                        </editor>
+                        <editor>
+                            <persName ref="http://viaf.org/viaf/70107717">
+                                <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Tanja</forename>
+                                <surname>Wissik</surname>
+                            </persName>
+                        </editor>
+                        <respStmt>
+                            <resp>Layout and Graphic Design </resp>
+                            <persName>
+                                <forename xmlns:tei="http://www.tei-c.org/ns/1.0" type="female">Sandra</forename>
+                                <surname>Lehecka</surname>
+                            </persName>
+                        </respStmt>
+                        <title>TEI Conference and Members’ Meeting 2016. Book of Abstracts</title>
+                        <idno type="ISBN">978-3-200-04689-4</idno>
+                        <imprint>
+                            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of
+                                Sciences</publisher>
+                            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                            <date when="2016-09-20">September 2016</date>
+                        </imprint>
+                        <biblScope unit="page">23</biblScope>
+                    </monogr>
+                </biblStruct>
+                <listEvent>
+                    <event when="2016-07-20" type="finalUpload">
+                        <desc>Submitted for publication by the author.</desc>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>The <gi>q</gi> element was used to represent all quotationmarks.</p>
+                </quotation>
+                <p>Where necessary, the abstracts were revised to American spelling during the editorial process.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>keynote</term>
+                </keywords>
+                <keywords>
+                    <term>interoperability</term>
+                    <term>software development</term>
+                    <term>code as scholarship</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2017-03-07" who="#vany">XML file created manually.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>For as long as the TEI has existed, the needs of scholars to interpret and express the texts they encode has sat uncomfortably with the requirements of developers that the code they write be interoperable and usable beyond a single text or a single project. Fundamentally, software development for textual scholarship needs is just as much an act of interpretation as the encoding itself, and interoperability is just as problematic as any exact repetition of scholarly methodology ever is. This is far from being bad news, however! When code is interpretation, it is also scholarship. By breaking away from the concept of code-as-toolbox in favor of code-as-scholarship, we can make a true and decisive argument for the place of the digital in the humanities. </p>
+        </body>
+    </text>
+</TEI>
