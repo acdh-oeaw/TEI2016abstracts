@@ -2,12 +2,12 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> T³ Typesetting TEI Using TeX. A Plea for High-quality Typesetting in the
+            <title> T³ – Typesetting TEI Using TeX. A Plea for High-quality Typesetting in the
                   Humanities<note type="footnote">This submission is dedicated to Sebastian Rahtz,
                   who contributed very important ideas to TeX and the TEI and started to connect
                   both worlds very early.</note></title>
             <author>
-               <persName ref="http://viaf.org/viaf/47401803">
+               <persName ref="http://viaf.org/viaf/47401803" xml:id="mars">
                   <forename>Martin</forename>
                   <surname>Sievers</surname>
                </persName>
@@ -60,8 +60,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title> T³ Typesetting TEI Using TeX. A Plea for High-quality Typesetting in the
-                     Humanities&gt;</title>
+                  <title> T³ – Typesetting TEI Using TeX. A Plea for High-quality Typesetting in the
+                     Humanities</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/47401803">
                         <forename>Martin</forename>
@@ -127,7 +127,8 @@
                P5).</change>
             <change when="2016-11-21" who="#vany">TEIHeader edited, encoding of text, footnotes and
                bibliographic information, extension of bibliographic information.</change>
-         <change when="2017-01-18" who="#vany">Keywords added.</change></listChange>
+            <change when="2017-01-18" who="#vany">Keywords added.</change>
+            <change when="2017-01-24" who="#mars">Minor corrections.</change></listChange>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -160,7 +161,7 @@
             open-source typesetting tools like TeX to provide a formatted version for proofreading
             or even a camera-ready copy for a printed publication. There is even a long-standing
             direct connection between the TEI format and TeX, namely teitolatex, a XSL stylesheet to
-            convert TEI documents into LATeX equivalents. Unfortunately, the XSL stylesheets<note type="footnote">Cf. <ref target="https://github.com/TEIC/Stylesheets">f.
+            convert TEI documents into LaTeX equivalents. Unfortunately, the XSL stylesheets<note type="footnote">Cf. <ref target="https://github.com/TEIC/Stylesheets">
                   https://github.com/TEIC/Stylesheets</ref></note> don’t seem to be very well-known
             among researchers.</p>
          <p>In my talk, I will demonstrate why the <q>dinosaur</q> TeX is still needed in a
@@ -174,7 +175,7 @@
                   XML</title>. <ref target="http://www.bbaw.de/en/telota/software/ediarum">http://www.bbaw.de/en/telota/software/ediarum</ref></bibl>
             <bibl><title>Apache(tm) FOP – a print formatter driven by XSL formatting objects
                   (XSL-FO) and an output independent formatter</title>. <ref target="http://xmlgraphics.apache.org/fop/">http://xmlgraphics.apache.org/fop/</ref></bibl>
-            <bibl>LATeX – A document preparation system. <ref>http://www.latex-project.org/
+            <bibl>LaTeX – A document preparation system. <ref>http://www.latex-project.org/
                </ref>[2016-07-20]. </bibl>
             <bibl><title>XML-Print: typesetting arbitrary XML documents in high quality</title>.
                   <ref target="https://sourceforge.net/projects/xml-printfiles/">https://sourceforge.net/projects/xml-printfiles/</ref></bibl>
